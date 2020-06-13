@@ -1,0 +1,14 @@
+{
+  "name": "searchable-map-template-csv-master",
+  "version": "1.0.0",
+  "description": "You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest. This template is a successor to Derek Eder's [Fusion Tables Map Template](https://github.com/derekeder/FusionTable-Map-Template).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
