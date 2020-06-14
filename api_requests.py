@@ -1,7 +1,34 @@
 import requests
 from opencage.geocoder import OpenCageGeocode
+import flask
+from flask import request
+from flask import jsonify
+import urlparse
 # from pprint import pprint
+app = flask.Flask(__name__)
+# @app.route('/',methods=['GET', 'POST', 'PUT'])
+# def pass_val():
+#     # search_address = request.args.get('search_address')
+#     # print('search_address', search_address)
+#     print("hello")
+#     return jsonify({'reply':'success'})
 
+# pass_val()
+print(request.GET.get('address'))
+url = 'https://post-covid-job-tracker.github.io/'
+
+par = urlparse.parse_qs(urlparse.urlparse(url).query)
+
+print par['address'][0], par['p'][0]
+
+# @app.route('/', methods = ['POST'])
+# def get_post_javascript_data():
+#     address = request.args.get('address')
+#     # password = request.args.get('password')
+#     print("hello")
+#     return address
+
+# jsdata = get_post_javascript_data()
 # api-endpoint
 URL = 'https://jobs.github.com/positions.json'
 
@@ -39,7 +66,7 @@ for i,v in enumerate(jsonResponse):
 
 
         #Forward Geocoding
-        key = 'e6cdbf647b42473a82025fe1c6dbf63f'
+        key = 'fb9265b8100043e4b053b18ca019e4fe'
         geocoder = OpenCageGeocode(key)
 
         print(query_string)
@@ -52,3 +79,26 @@ for i,v in enumerate(jsonResponse):
                                         results[i]['geometry']['lng'],
                                         results[i]['components']['country_code'],
                                         results[i]['annotations']['timezone']['name']))
+
+
+
+# @app.route('/py', methods=['GET', 'POST'])
+# def server():
+#     if request.method == 'POST':
+#         # Then get the data from the form
+#         tag = request.form['tag']
+
+#         # Get the username/password associated with this tag
+#         user, password = tag_lookup(tag)
+
+#         # Generate just a boring response
+#         return 'The credentials for %s are %s and %s' % (tag, user, password) 
+#         # Or you could have a custom template for displaying the info
+#         # return render_template('asset_information.html',
+#         #                        username=user, 
+#         #                        password=password)
+
+#     # Otherwise this was a normal GET request
+#     else:   
+#         return render_template('index.html')
+
