@@ -8,7 +8,7 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/chicago-flu-shot-locations-2019.csv',
+    filePath: 'data/job_search_info_final.csv',
     fileType: 'csv',
     recordName: 'job location',
     recordNamePlural: 'jobs',

@@ -1,7 +1,7 @@
 var SearchableMapLib = SearchableMapLib || {};
 var SearchableMapLib = {
 
-  // parameters to be defined on initialize() 
+  // parameters to be defined on initialize()
   map_centroid: [],
   defaultZoom: 9,
   filePath: '',
@@ -42,9 +42,9 @@ var SearchableMapLib = {
     $("#search-address").val(SearchableMapLib.convertToPlainString($.address.parameter('address')));
 
     var loadRadius = SearchableMapLib.convertToPlainString($.address.parameter('radius'));
-    if (loadRadius != "") 
+    if (loadRadius != "")
         $("#search-radius").val(loadRadius);
-    else 
+    else
         $("#search-radius").val(SearchableMapLib.radius);
 
     $(":checkbox").prop("checked", "checked");
@@ -404,7 +404,7 @@ var SearchableMapLib = {
     var name_search = $("#search-name").val().replace("'", "\\'");
     if (name_search != '') {
       SearchableMapLib.currentResults.features = $.grep(SearchableMapLib.currentResults.features, function(r) {
-          return r.properties["Facility Name"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
+          return r.properties["Company"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
         });
     }
     //-----end name search filter-----
@@ -444,12 +444,14 @@ var SearchableMapLib = {
 
   setZoom: function() {
     var zoom = '';
-    if (SearchableMapLib.radius >= 8050) zoom = 12; // 5 miles
+    if (SearchableMapLib.radius >= 40250) zoom = 8; // 25 miles
+    else if (SearchableMapLib.radius >= 16100) zoom = 11 //10 miles
+    else if (SearchableMapLib.radius >= 8050) zoom = 12 //5 miles
     else if (SearchableMapLib.radius >= 3220) zoom = 13; // 2 miles
     else if (SearchableMapLib.radius >= 1610) zoom = 14; // 1 mile
-    else if (SearchableMapLib.radius >= 805) zoom = 15; // 1/2 mile
-    else if (SearchableMapLib.radius >= 400) zoom = 16; // 1/4 mile
-    else zoom = 16;
+    // else if (SearchableMapLib.radius >= 805) zoom = 15; // 1/2 mile
+    // else if (SearchableMapLib.radius >= 400) zoom = 16; // 1/4 mile
+    else zoom = 14;
 
     SearchableMapLib.map.setView(new L.LatLng( SearchableMapLib.currentPinpoint[0], SearchableMapLib.currentPinpoint[1] ), zoom)
   },
