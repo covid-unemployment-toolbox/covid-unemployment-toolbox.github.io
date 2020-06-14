@@ -87,8 +87,7 @@ for i,v in enumerate(jsonResponse):
 
         query = query_string
 
-
-        posting_set.add(query_string)
+        # posting_set.add(query_string)
         results = geocoder.geocode(query)
 
         if results and results[0]['components']['country_code'] == 'us':
@@ -105,7 +104,7 @@ dict = {'company': company_list, 'location': location_list, 'type': type_list, '
 'description': description_list, 'company_url': company_url_list, 'company_logo': company_logo_list,'latitude': latitude_list, 'longitude' : longitude_list}
 
 df = pd.DataFrame(dict)
-df = df.drop_duplicates(subset='longitude', keep='last')
+df = df.drop_duplicates(subset='company', keep='last')
 df = df[df.latitude != '']
 
 df.to_csv('data/job_search_info.csv')
