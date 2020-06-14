@@ -2,13 +2,6 @@ import requests
 from opencage.geocoder import OpenCageGeocode
 import pandas as pd
 # from pprint import pprint
-app = flask.Flask(__name__)
-# @app.route('/',methods=['GET', 'POST', 'PUT'])
-# def pass_val():
-#     # search_address = request.args.get('search_address')
-#     # print('search_address', search_address)
-#     print("hello")
-#     return jsonify({'reply':'success'})
 
 # for i in range(0, 5):
 # api-endpoint
@@ -20,7 +13,7 @@ URL = 'https://jobs.github.com/positions.json'
 # description = 'engineer'
 
 # defining a params dict for the parameters to be sent to the API
-PARAMS = {'page':0}
+PARAMS = {'page':2}
 
 # sending get request and saving the response as response object
 response = requests.get(url = URL, params = PARAMS)
@@ -112,7 +105,7 @@ dict = {'Company': company_list, 'Location': location_list, 'Type': type_list, '
 'Description': description_list, 'Company_url': company_url_list, 'Company_logo': company_logo_list,'Latitude': latitude_list, 'Longitude' : longitude_list}
 
 df = pd.DataFrame(dict)
-# df = df.drop_duplicates(subset='Company', keep='last')
+df = df.drop_duplicates(subset='Company', keep='last')
 df = df[df.Latitude != '']
 
-df.to_csv('data/job_search_info.csv')
+df.to_csv('data/job_search_info1.csv')

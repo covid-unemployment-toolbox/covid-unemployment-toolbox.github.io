@@ -8,10 +8,10 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/chicago-flu-shot-locations-2019.csv',
+    filePath: 'data/job_search_info.csv',
     fileType: 'csv',
-    recordName: 'flu shot location',
-    recordNamePlural: 'flu shot locations',
+    recordName: 'Job Search result',
+    recordNamePlural: 'Job Search results',
     map_centroid: [41.85754, -87.66231],
     defaultZoom:  11,
     defaultRadius: 1610,

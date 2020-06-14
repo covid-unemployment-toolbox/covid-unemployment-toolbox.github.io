@@ -1,7 +1,7 @@
 var SearchableMapLib = SearchableMapLib || {};
 var SearchableMapLib = {
 
-  // parameters to be defined on initialize() 
+  // parameters to be defined on initialize()
   map_centroid: [],
   defaultZoom: 9,
   filePath: '',
@@ -42,9 +42,9 @@ var SearchableMapLib = {
     $("#search-address").val(SearchableMapLib.convertToPlainString($.address.parameter('address')));
 
     var loadRadius = SearchableMapLib.convertToPlainString($.address.parameter('radius'));
-    if (loadRadius != "") 
+    if (loadRadius != "")
         $("#search-radius").val(loadRadius);
-    else 
+    else
         $("#search-radius").val(SearchableMapLib.radius);
 
     $(":checkbox").prop("checked", "checked");
@@ -268,7 +268,7 @@ var SearchableMapLib = {
     var name_search = $("#search-name").val().replace("'", "\\'");
     if (name_search != '') {
       SearchableMapLib.currentResults.features = $.grep(SearchableMapLib.currentResults.features, function(r) {
-          return r.properties["Facility Name"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
+          return r.properties["Company"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
         });
     }
     //-----end name search filter-----
