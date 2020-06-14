@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io/issues"
   },
-  "homepage": "https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io#readme"
+  "homepage": "https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
