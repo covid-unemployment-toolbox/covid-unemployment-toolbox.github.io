@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-  
+    
+
   <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' /> -->
 
@@ -64,92 +65,151 @@
     <script src="js/searchable_map_lib.js"></script>
     <script src="js/analytics_lib.js"></script>
 
-    <!-- Added for COVID-git19 Application -->
+    <!-- Added for COVID-19 Application -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
     <link rel="stylesheet" href="css/covid.css"/>
+    <script src="js/animation.js"></script>
+    <script type="text/javascript" src="js/mapdata.js"></script>		
+    <script  type="text/javascript" src="js/usmap.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" /> -->
 
   </head>
   <body>
-    <!-- <div id='map' style='width: 400px; height: 300px;'></div>
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiemViYXQyIiwiYSI6ImNrYmVkbDYybzBrdHIydG16aG4wdmE5ajAifQ.sC2lAguwrhEUBG9Fef5DiQ';
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11'
-    });
-  </script> -->
-
-
-    <nav class="navbar navbar-expand-md navbar-light mb-2">
-      <a class="navbar-brand" href="/">
-        Searchable Map Template - CSV
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse mr-auto" id="navbarsExampleDefault">
-        <ul class="navbar-nav ml-auto">
-          <li class='nav-item'>
-            <a class="nav-link active" href="/"><i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>
-          </li>
-          <li class='nav-item'>
-            <a class="nav-link" href="/about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
-          </li>
-        </ul>
+    <div class="container-background">
+      <img src="img/header.jpg" alt="header" style="width:100%;">
+      <div class="centered">
+        <h1 class="header-text">COVID <br>Unemployment <br>Toolbox</h1>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#job-searcher">
+          <div class="mouse_scroll left-arrow">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </div>
+        </a>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#resource-finder">
+          <div class="mouse_scroll right-arrow">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </div>
+        </a>
       </div>
-    </nav>
-
-    <div class="covid-header">
-      <img src="img/logo.jpg" alt="Logo" width="500" height="600">
+      </div>  
     </div>
 
     <main role="main" class="container-fluid">
-
-      <div class='row'>
-        <div class="col-md-4">
-          <p>You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest. <br /><a href='/about.html'>Read more &raquo;</a></p>
-
-          <div class="card bg-light">
-            <div class="card-body">
-              <div class='row'>
-                <div class="col-md-8">
-                  <div class="form-group">
-                      Near an address
-                      <input class='form-control' id='search-address' placeholder='Enter an address' type='text'>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class='form-group'>
-                      Within
-                      <select id='search-radius' class='form-control'>
-                        <option value='400'>2 blocks</option>
-                        <option value='805'>1/2 mile</option>
-                        <option value='1610'>1 mile</option>
-                        <option value='3220'>2 miles</option>
-                        <option value='8050'>5 miles</option>
-                      </select>
-                  </div>
+      <div class="col-md-12">
+        <a id="job-searcher"></a>
+        <div class="card bg-light">
+          <div class="card-body">
+            <div class='row'>
+              <div class="col-md-8">
+                <div class="form-group">
+                    Your Location
+                    <input class='form-control' id='search-address' placeholder='Enter an address, city, or zipcode' type='text'>
                 </div>
               </div>
 
-              <div class='row'>
-                <div class="col-md-12">
-                  <div class="form-group">
-                      Search by name
-                      <input class='form-control' id='search-name' placeholder='Enter a business or organization name' type='text'>
-                  </div>
+              <div class="col-md-4">
+                <div class='form-group'>
+                    Within
+                    <select id='search-radius' class='form-control'>
+                      <option value='1610'>1 mile</option>
+                      <option value='3220'>2 miles</option>
+                      <option value='8050'>5 miles</option>
+                      <option value='16100'>10 miles</option>
+                      <option value='40250'>25 miles</option>
+                    </select>
                 </div>
-              </div>
-
-              <button class='btn btn-primary' id="btnSearch"><i class='fa fa-search'></i> Search</button>
-              <a href="/" class='btn btn-secondary' id="btnReset" title="Reset"><i class="fa fa-repeat" aria-hidden="true"></i> Reset</a>
-              <button class='btn btn-dark' id='btnViewMode' title='Change view'><i class='fa fa-list'></i> List view</button>
-
               </div>
             </div>
-          </div>
 
+            <div class='row'>
+              <div class="col-md-3">
+                <div class="form-group">
+                    Job Title
+                    <input class='form-control' id='search-name' placeholder='i.e Software Engineer' type='text'>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class='form-group'>
+                  Industry Type
+                  <select id='industry-type' class='form-control'>
+                    <option value='Accounting'>Accounting</option>
+                    <option value='Administration & Office Support'>Administration & Office Support</option>
+                    <option value='Advertising, Arts & Media'>Advertising, Arts & Media</option>
+                    <option value='Banking & Financial Services'>Banking & Financial Services</option>
+                    <option value='Call Centre & Customer Service'>Call Centre & Customer Service</option>
+                    <option value='Community Services & Development'>Community Services & Development</option>
+                    <option value='Construction'>Construction</option>
+                    <option value='Consulting & Strategy'>Consulting & Strategy</option>
+                    <option value='Education & Training'>Education & Training</option>
+                    <option value='Engineering'>Engineering</option>
+                    <option value='Farming, Animals & Conservation'>Farming, Animals & Conservation</option>
+                    <option value='Government & Defence'>Government & Defence</option>
+                    <option value='Healthcare & Medical'>Healthcare & Medical</option>
+                    <option value='Hospitality & Tourism'>Hospitality & Tourism</option>
+                    <option value='Human Resources & Recruitment'>Human Resources & Recruitment</option>
+                    <option value='Information & Communication Technology'>Information & Communication Technology</option>
+                    <option value='Insurance & Superannuation'>Insurance & Superannuation</option>
+                    <option value='Legal'>Legal</option>
+                    <option value='Manufacturing, Transport & Logistics'>Manufacturing, Transport & Logistics</option>
+                    <option value='Marketing & Communications'>Marketing & Communications</option>
+                    <option value='Mining, Resources & Energy'>Mining, Resources & Energy</option>
+                    <option value='Real Estate & Property'>Real Estate & Property</option>
+                    <option value='Retail & Consumer Products'>Retail & Consumer Products</option>
+                    <option value='Sales'>Sales</option>
+                    <option value='Science & Technology'>Science & Technology</option>
+                    <option value='Sport & Recreation'>Sport & Recreation</option>
+                    <option value='Trades & Services'>Trades & Services</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class='form-group'>
+                  Industry
+                  <select id='job-type' class='form-control'>
+                    <option value='Full-time'>Full-time</option>
+                    <option value='Part-time'>Part-time</option>
+                    <option value='Contract'>Contract</option>
+                    <option value='Temporary'>Temporary</option>
+                    <option value='Commission'>Commission</option>
+                    <option value='Internship'>Internship</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                Salary
+                <div class="range-slider"><span>Min. $
+                  <input type="number" value="10" min="0" max="100">	Max. $
+                  <input type="number" value="25" min="0" max="100"></span>
+                  <input value="10" min="0" max="100" step="1" type="range"/>
+                  <input value="25" min="0" max="100" step="1" type="range"/>
+                </div>
+              </div>
+            </div>
+
+            <button class='btn btn-primary' id="btnSearch"><i class='fa fa-search'></i> Search</button>
+            <a href="/" class='btn btn-secondary' id="btnReset" title="Reset"><i class="fa fa-repeat" aria-hidden="true"></i> Reset</a>
+            <button class='btn btn-dark' id='btnViewMode' title='Change view'><i class='fa fa-list'></i> List view</button>
+
+            </div>
+          </div>
+        </div>
+      <div class='row'>
+          <div class="col-md-4">
+            About this job:
+          </div>
           <div class='col-md-8'>
             <div id='mapCanvas' style="display: block; height: 1000px;"></div>
             <div id="listCanvas" style="display: none">
@@ -162,16 +222,25 @@
                       <th scope="col">Location</th>
                       <th scope="col">Address</th>
                       <th scope="col">Phone</th>
-                      <th scope="col">Hours</th>
+                      <th scope="col">URL</th>
                     </tr>
                   </thead>
                   <tbody id='results-list'></tbody>
                 </table>
               </div>
             </div>
-            <p class='float-right'>Based on <a href='https://github.com/datamade/searchable-map-template-csv' target='_blank'>Searchable Map Template - CSV</a> by <a href='https://derekeder.com/' target='_blank'>Derek Eder</a> and <a href='https://datamade.us/' target='_blank'>DataMade</a></p>
           </div>
         </div>
+        <a id="resource-finder"></a>
+        <div class='row interactive-map'>
+          <div class='col-md-8'>
+            <div id="map"></div>
+          </div>
+          <div class="col-md-4">
+            Unemployment resources in your area:
+          </div>
+        </div>
+        
 
         <div class="modal fade" id="modal-pop" tabindex="-1" role="dialog">
           <div class="modal-dialog modal-lg">
@@ -193,5 +262,59 @@
         <script type="text/javascript" src="js/map.js"></script>
 
     </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -166,6 +166,142 @@ var SearchableMapLib = {
           SearchableMapLib.renderMap();
           SearchableMapLib.renderList();
           SearchableMapLib.getResults();
+
+          var locationArr = address.split(',');
+          var abbreviationToState = {
+            "AL": "Alabama",
+            "AK": "Alaska",
+            "AS": "American Samoa",
+            "AZ": "Arizona",
+            "AR": "Arkansas",
+            "CA": "California",
+            "CO": "Colorado",
+            "CT": "Connecticut",
+            "DE": "Delaware",
+            "DC": "District Of Columbia",
+            "FM": "Federated States Of Micronesia",
+            "FL": "Florida",
+            "GA": "Georgia",
+            "GU": "Guam",
+            "HI": "Hawaii",
+            "ID": "Idaho",
+            "IL": "Illinois",
+            "IN": "Indiana",
+            "IA": "Iowa",
+            "KS": "Kansas",
+            "KY": "Kentucky",
+            "LA": "Louisiana",
+            "ME": "Maine",
+            "MH": "Marshall Islands",
+            "MD": "Maryland",
+            "MA": "Massachusetts",
+            "MI": "Michigan",
+            "MN": "Minnesota",
+            "MS": "Mississippi",
+            "MO": "Missouri",
+            "MT": "Montana",
+            "NE": "Nebraska",
+            "NV": "Nevada",
+            "NH": "New Hampshire",
+            "NJ": "New Jersey",
+            "NM": "New Mexico",
+            "NY": "New York",
+            "NC": "North Carolina",
+            "ND": "North Dakota",
+            "MP": "Northern Mariana Islands",
+            "OH": "Ohio",
+            "OK": "Oklahoma",
+            "OR": "Oregon",
+            "PW": "Palau",
+            "PA": "Pennsylvania",
+            "PR": "Puerto Rico",
+            "RI": "Rhode Island",
+            "SC": "South Carolina",
+            "SD": "South Dakota",
+            "TN": "Tennessee",
+            "TX": "Texas",
+            "UT": "Utah",
+            "VT": "Vermont",
+            "VI": "Virgin Islands",
+            "VA": "Virginia",
+            "WA": "Washington",
+            "WV": "West Virginia",
+            "WI": "Wisconsin",
+            "WY": "Wyoming"
+          };
+
+          var stateToAbbreviation = {
+            "Alabama": "AL",
+            "Alaska": "AK",
+            "American Samoa": "AS",
+            "Arizona": "AZ",
+            "Arkansas": "AR",
+            "California": "CA",
+            "Colorado": "CO",
+            "Connecticut": "CT",
+            "Delaware": "DE",
+            "District Of Columbia": "DC",
+            "Federated States Of Micronesia": "FM",
+            "Florida": "FL",
+            "Georgia": "GA",
+            "Guam": "GU",
+            "Hawaii": "HI",
+            "Idaho": "ID",
+            "Illinois": "IL",
+            "Indiana": "IN",
+            "Iowa": "IA",
+            "Kansas": "KS",
+            "Kentucky": "KY",
+            "Louisiana": "LA",
+            "Maine": "ME",
+            "Marshall Islands": "MH",
+            "Maryland": "MD",
+            "Massachusetts": "MA",
+            "Michigan": "MI",
+            "Minnesota": "MN",
+            "Mississippi": "MS",
+            "Missouri": "MO",
+            "Montana": "MT",
+            "Nebraska": "NE",
+            "Nevada": "NV",
+            "New Hampshire": "NH",
+            "New Jersey": "NJ",
+            "New Mexico": "NM",
+            "New York": "NY",
+            "North Carolina": "NC",
+            "North Dakota": "ND",
+            "Northern Mariana Islands": "MP",
+            "Ohio": "OH",
+            "Oklahoma": "OK",
+            "Oregon": "OR",
+            "Palau": "PW",
+            "Pennsylvania": "PA",
+            "Puerto Rico": "PR",
+            "Rhode Island": "RI",
+            "South Carolina": "SC",
+            "South Dakota": "SD",
+            "Tennessee": "TN",
+            "Texas": "TX",
+            "Utah": "UT",
+            "Vermont": "VT",
+            "Virgin Islands": "VI",
+            "Virginia": "VA",
+            "Washington": "WA",
+            "West Virginia": "WV",
+            "Wisconsin": "WI",
+            "Wyoming": "WY"
+          };
+
+          for (var key in locationArr) {
+            console.log("Key is " + key);
+            if (key in abbreviationToState) {
+              address = abbreviationToState[key];
+            }
+            if (key in stateToAbbreviation) {
+              addresss = key;
+            }
+          }
+          console.log("Address is " + address);
         }
         else {
           alert("We could not find your address: " + status);
@@ -221,18 +357,18 @@ var SearchableMapLib = {
     $('#list-result-count').html(SearchableMapLib.currentResults.features.length.toLocaleString('en') + ' ' + recname + ' found')
   },
 
-  modalPop: function(data) {
-    if (SearchableMapLib.debug) {
-      console.log('launch modal')
-      console.log(data);
-    }
-    var modal_content;
-    $.get( "../templates/popup.ejs", function( template ) {
-        modal_content = ejs.render(template, {obj: data});
-        $('#modal-pop').modal();
-        $('#modal-main').html(modal_content);
-    });
-  },
+  // modalPop: function(data) {
+  //   if (SearchableMapLib.debug) {
+  //     console.log('launch modal')
+  //     console.log(data);
+  //   }
+  //   var modal_content;
+  //   $.get( "../templates/popup.ejs", function( template ) {
+  //       modal_content = ejs.render(template, {obj: data});
+  //       $('#modal-pop').modal();
+  //       $('#modal-main').html(modal_content);
+  //   });
+  // },
 
   clearSearch: function(){
     if (SearchableMapLib.currentResultsLayer) {

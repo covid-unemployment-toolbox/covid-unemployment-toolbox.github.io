@@ -10,8 +10,8 @@ $(function() {
   SearchableMapLib.initialize({
     filePath: 'data/job_search_info_final.csv',
     fileType: 'csv',
-    recordName: 'Job Search result',
-    recordNamePlural: 'Job Search results',
+    recordName: 'job location',
+    recordNamePlural: 'jobs',
     map_centroid: [41.85754, -87.66231],
     defaultZoom:  11,
     defaultRadius: 1610,
