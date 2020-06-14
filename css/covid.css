@@ -45,12 +45,14 @@
     transform: translate(-50%, -50%);
 }
 
+/** Header arrows code.
+ * Copyright (c) 2020 by Yurij Rightblog.ru (https://codepen.io/rightblog/pen/EagNMN) 
+ */
 *, *:before, *:after {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
   box-sizing: border-box;
  }
-
 
 .mouse_scroll {
 	display: block;
@@ -59,7 +61,6 @@
 	height: 100px;
 	padding-top: 170%;
 }
-
 
 .m_scroll_arrows {
   display: block;
@@ -76,7 +77,6 @@
   width: 16px;
   height: 16px;
 }
-
 
 .unu {
   margin-top: 1px;
@@ -113,11 +113,8 @@
   -webkit-animation-delay: .3s;
   -moz-animation-delay: .3s;
   -webkit-animation-direction: alternate;
-  
   animation-delay: .3s;
   animation-direction: alternate;
-  
-  
   margin-top: -6px;
 }
 
@@ -230,12 +227,14 @@
   transition: background-color 0.25s ease-in-out;
 }
 
-/** Copyright (c) 2020 by Dima (https://codepen.io/dimaZubkov/pen/KgBqdA) */
-
+/** Salary slider code. 
+ * Copyright (c) 2020 by Dima (https://codepen.io/dimaZubkov/pen/KgBqdA) 
+ */
 input {
   box-shadow: 0;
   outline: 0;
 }
+
 .range-slider {
   width: 300px;
   /* margin: auto; */
@@ -243,41 +242,51 @@ input {
   position: relative;
   height: 2.9em;
 }
+
 .range-slider input[type=range] {
   position: absolute;
   left: 0;
   bottom: 10px;
 }
+
 input[type=number] {
   border: 1px solid #ddd;
   text-align: center;
   font-size: 0.8em;
   -moz-appearance: textfield;
 }
+
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
 input[type=number]:invalid,
 input[type=number]:out-of-range {
   border: 2px solid #ff6347;
 }
+
 input[type=range] {
   -webkit-appearance: none;
   width: 100%;
 }
+
 input[type=range]:focus {
   outline: none;
 }
+
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #2497e3;
 }
+
 input[type=range]:focus::-ms-fill-lower {
   background: #2497e3;
 }
+
 input[type=range]:focus::-ms-fill-upper {
   background: #2497e3;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 5px;
@@ -288,6 +297,7 @@ input[type=range]::-webkit-slider-runnable-track {
   box-shadow: none;
   border: 0;
 }
+
 input[type=range]::-webkit-slider-thumb {
   z-index: 2;
   position: relative;
@@ -301,6 +311,7 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   margin-top: -7px;
 }
+
 input[type=range]::-moz-range-track {
   width: 100%;
   height: 5px;
@@ -311,6 +322,7 @@ input[type=range]::-moz-range-track {
   box-shadow: none;
   border: 0;
 }
+
 input[type=range]::-moz-range-thumb {
   z-index: 2;
   position: relative;
@@ -322,6 +334,7 @@ input[type=range]::-moz-range-thumb {
   background: #a1d0ff;
   cursor: pointer;
 }
+
 input[type=range]::-ms-track {
   width: 100%;
   height: 5px;
@@ -331,6 +344,7 @@ input[type=range]::-ms-track {
   border-color: transparent;
   color: transparent;
 }
+
 input[type=range]::-ms-fill-lower,
 input[type=range]::-ms-fill-upper {
   background: #2497e3;
@@ -338,6 +352,7 @@ input[type=range]::-ms-fill-upper {
   box-shadow: none;
   border: 0;
 }
+
 input[type=range]::-ms-thumb {
   z-index: 2;
   position: relative;
@@ -350,70 +365,70 @@ input[type=range]::-ms-thumb {
   cursor: pointer;
 }
 
-/** */ 
-
-.site-footer
-{
+/** Footer code.
+ * Copyright (c) 2020 by scanfcode (https://codepen.io/scanfcode/pen/MEZPNd) 
+*/ 
+.site-footer {
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
 }
-.site-footer hr
-{
+
+.site-footer hr {
   border-top-color:#bbb;
   opacity:0.5
 }
-.site-footer hr.small
-{
+ 
+.site-footer hr.small {
   margin:20px 0
 }
-.site-footer h6
-{
+
+.site-footer h6 {
   color:#fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
 }
-.site-footer a
-{
+
+.site-footer a {
   color:#737373;
 }
-.site-footer a:hover
-{
+
+.site-footer a:hover {
   color:#3366cc;
   text-decoration:none;
 }
-.footer-links
-{
+
+.footer-links {
   padding-left:0;
   list-style:none
 }
-.footer-links li
-{
+
+.footer-links li {
   display:block
 }
-.footer-links a
-{
+
+.footer-links a {
   color:#737373
 }
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
   color:#3366cc;
   text-decoration:none;
 }
-.footer-links.inline li
-{
+
+.footer-links.inline li {
   display:inline-block
 }
-.site-footer .social-icons
-{
+ 
+.site-footer .social-icons {
   text-align:right
 }
-.site-footer .social-icons a
-{
+
+.site-footer .social-icons a {
   width:40px;
   height:40px;
   line-height:40px;
@@ -422,48 +437,45 @@ input[type=range]::-ms-thumb {
   border-radius:100%;
   background-color:#33353d
 }
-.copyright-text
-{
+
+.copyright-text {
   margin:0
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
+
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
     margin-bottom:30px
   }
 }
-@media (max-width:767px)
-{
-  .site-footer
-  {
+
+@media (max-width:767px) {
+  .site-footer {
     padding-bottom:0
   }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
+  .site-footer .copyright-text,.site-footer .social-icons {
     text-align:center
   }
 }
-.social-icons
-{
+.social-icons {
   padding-left:0;
   margin-bottom:0;
   list-style:none
 }
-.social-icons li
-{
+
+.social-icons li {
   display:inline-block;
   margin-bottom:4px
 }
-.social-icons li.title
-{
+
+.social-icons li.title {
   margin-right:15px;
   text-transform:uppercase;
   color:#96a2b2;
   font-weight:700;
   font-size:13px
 }
-.social-icons a{
+
+.social-icons a {
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
@@ -478,38 +490,37 @@ input[type=range]::-ms-thumb {
   -o-transition:all .2s linear;
   transition:all .2s linear
 }
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover {
   color:#fff;
   background-color:#29aafe
 }
-.social-icons.size-sm a
-{
+
+.social-icons.size-sm a {
   line-height:34px;
   height:34px;
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
-{
+
+.social-icons a.facebook:hover {
   background-color:#3b5998
 }
-.social-icons a.twitter:hover
-{
+
+.social-icons a.twitter:hover {
   background-color:#00aced
 }
-.social-icons a.linkedin:hover
-{
+
+.social-icons a.linkedin:hover {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
-{
+
+.social-icons a.dribbble:hover {
   background-color:#ea4c89
 }
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
+
+@media (max-width:767px) {
+  .social-icons li.title {
     display:block;
     margin-right:0;
     font-weight:600
