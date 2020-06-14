@@ -14,6 +14,10 @@
     text-shadow: 2px 2px 2px black;
 }
 
+.sub-header { 
+  /* TODO: find a good font here*/
+}
+
 .container-background {
     /* position: relative; */
     width: 100%;
@@ -220,15 +224,15 @@ input {
 }
 .range-slider {
   width: 300px;
-  margin: auto;
+  /* margin: auto; */
   text-align: center;
   position: relative;
-  height: 2.5em;
+  height: 2.9em;
 }
 .range-slider input[type=range] {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
 }
 input[type=number] {
   border: 1px solid #ddd;

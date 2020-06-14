@@ -170,24 +170,60 @@
             </div>
 
             <div class='row'>
-              <div class="col-md-4">
+              <div class="col-md-3">
                 <div class="form-group">
-                    Search by name
-                    <input class='form-control' id='search-name' placeholder='Enter a business or organization name' type='text'>
+                    Job Title
+                    <input class='form-control' id='search-name' placeholder='i.e Software Engineer' type='text'>
                 </div>
               </div>
-              <div class='form-group'>
-                Job Type
-                <select id='job-type' class='form-control'>
-                  <option value='Full-time'>Full-time</option>
-                  <option value='Part-time'>Part-time</option>
-                  <option value='Contract'>Contract</option>
-                  <option value='Temporary'>Temporary</option>
-                  <option value='Commission'>Commission</option>
-                  <option value='Internship'>Internship</option>
-                </select>
-              </div>
               <div class="col-md-4">
+                <div class='form-group'>
+                  Industry Type
+                  <select id='industry-type' class='form-control'>
+                    <option value='Accounting'>Accounting</option>
+                    <option value='Administration & Office Support'>Administration & Office Support</option>
+                    <option value='Advertising, Arts & Media'>Advertising, Arts & Media</option>
+                    <option value='Banking & Financial Services'>Banking & Financial Services</option>
+                    <option value='Call Centre & Customer Service'>Call Centre & Customer Service</option>
+                    <option value='Community Services & Development'>Community Services & Development</option>
+                    <option value='Construction'>Construction</option>
+                    <option value='Consulting & Strategy'>Consulting & Strategy</option>
+                    <option value='Education & Training'>Education & Training</option>
+                    <option value='Engineering'>Engineering</option>
+                    <option value='Farming, Animals & Conservation'>Farming, Animals & Conservation</option>
+                    <option value='Government & Defence'>Government & Defence</option>
+                    <option value='Healthcare & Medical'>Healthcare & Medical</option>
+                    <option value='Hospitality & Tourism'>Hospitality & Tourism</option>
+                    <option value='Human Resources & Recruitment'>Human Resources & Recruitment</option>
+                    <option value='Information & Communication Technology'>Information & Communication Technology</option>
+                    <option value='Insurance & Superannuation'>Insurance & Superannuation</option>
+                    <option value='Legal'>Legal</option>
+                    <option value='Manufacturing, Transport & Logistics'>Manufacturing, Transport & Logistics</option>
+                    <option value='Marketing & Communications'>Marketing & Communications</option>
+                    <option value='Mining, Resources & Energy'>Mining, Resources & Energy</option>
+                    <option value='Real Estate & Property'>Real Estate & Property</option>
+                    <option value='Retail & Consumer Products'>Retail & Consumer Products</option>
+                    <option value='Sales'>Sales</option>
+                    <option value='Science & Technology'>Science & Technology</option>
+                    <option value='Sport & Recreation'>Sport & Recreation</option>
+                    <option value='Trades & Services'>Trades & Services</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class='form-group'>
+                  Industry
+                  <select id='job-type' class='form-control'>
+                    <option value='Full-time'>Full-time</option>
+                    <option value='Part-time'>Part-time</option>
+                    <option value='Contract'>Contract</option>
+                    <option value='Temporary'>Temporary</option>
+                    <option value='Commission'>Commission</option>
+                    <option value='Internship'>Internship</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-2">
                 Salary
                 <div class="range-slider"><span>Min. $
                   <input type="number" value="10" min="0" max="100">	Max. $
@@ -206,6 +242,9 @@
           </div>
         </div>
       <div class='row'>
+          <div class="col-md-3">
+            About this job:
+          </div>
           <div class='col-md-6'>
             <div id='mapCanvas' style="display: block; height: 1000px;"></div>
             <div id="listCanvas" style="display: none">
@@ -225,6 +264,9 @@
                 </table>
               </div>
             </div>
+          </div>
+          <div class="col-md-3">
+            Unemployment resources in your area:
           </div>
         </div>
         
