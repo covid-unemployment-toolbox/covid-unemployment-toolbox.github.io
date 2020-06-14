@@ -23,25 +23,35 @@ response = requests.get(url = URL, params = PARAMS)
 # response.raise_for_status()
 # access JSOn content
 jsonResponse = response.json()
+
 for i,v in enumerate(jsonResponse):
+    query_string = ''
     for key, value in jsonResponse[i].items():
         if key == 'location':
-            print(key, ":", value)
+            query_string += value
+
         if key == 'company':
-            print(key, ":", value)
-        if key == 'title':
-            print(key, ":", value)
+            query_string += value
+            query_string += ' '
+
+        if (query_string == ''):
+            continue
 
 
-#Forward Geocoding
-key = 'e6cdbf647b42473a82025fe1c6dbf63f'
-geocoder = OpenCageGeocode(key)
+        #Forward Geocoding
+        key = 'e6cdbf647b42473a82025fe1c6dbf63f'
+        geocoder = OpenCageGeocode(key)
 
-query = u'Bosutska ulica 10, Trnje, Zagreb, Croatia'
-results = geocoder.geocode(query)
+        print(query_string)
+        query = query_string
+        results = geocoder.geocode(query)
 
-print(u'%f;%f;%s;%s' % (results[0]['geometry']['lat'],
-                        results[0]['geometry']['lng'],
-                        results[0]['components']['country_code'],
-                        results[0]['annotations']['timezone']['name']))
-# 45.797095;15.982453;hr;Europe/Belgrade
+        for i,v in enumerate(results):
+            if results[i]['components']['country_code'] == 'us':
+                print(u'%f;%f;%s;%s' % (results[i]['geometry']['lat'],
+                                        results[i]['geometry']['lng'],
+                                        results[i]['components']['country_code'],
+                                        results[i]['annotations']['timezone']['name']))
+
+
+        
