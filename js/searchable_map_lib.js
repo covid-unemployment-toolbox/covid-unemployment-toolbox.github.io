@@ -308,12 +308,14 @@ var SearchableMapLib = {
 
   setZoom: function() {
     var zoom = '';
-    if (SearchableMapLib.radius >= 8050) zoom = 12; // 5 miles
+    if (SearchableMapLib.radius >= 40250) zoom = 8; // 25 miles
+    else if (SearchableMapLib.radius >= 16100) zoom = 11 //10 miles
+    else if (SearchableMapLib.radius >= 8050) zoom = 12 //5 miles
     else if (SearchableMapLib.radius >= 3220) zoom = 13; // 2 miles
     else if (SearchableMapLib.radius >= 1610) zoom = 14; // 1 mile
-    else if (SearchableMapLib.radius >= 805) zoom = 15; // 1/2 mile
-    else if (SearchableMapLib.radius >= 400) zoom = 16; // 1/4 mile
-    else zoom = 16;
+    // else if (SearchableMapLib.radius >= 805) zoom = 15; // 1/2 mile
+    // else if (SearchableMapLib.radius >= 400) zoom = 16; // 1/4 mile
+    else zoom = 14;
 
     SearchableMapLib.map.setView(new L.LatLng( SearchableMapLib.currentPinpoint[0], SearchableMapLib.currentPinpoint[1] ), zoom)
   },

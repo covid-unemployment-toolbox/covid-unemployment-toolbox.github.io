@@ -13,7 +13,7 @@ URL = 'https://jobs.github.com/positions.json'
 # description = 'engineer'
 
 # defining a params dict for the parameters to be sent to the API
-PARAMS = {'page':2}
+PARAMS = {'page':3}
 
 # sending get request and saving the response as response object
 response = requests.get(url = URL, params = PARAMS)
@@ -83,7 +83,7 @@ for i,v in enumerate(jsonResponse):
         location_list.append(location_name)
 
         #Forward Geocoding
-        key = '79d79d386dcf4a5db44e1c9beaab929b'
+        key = '05da6b4ff4e84421b38eabbbf0a9680a'
         geocoder = OpenCageGeocode(key)
 
         query = query_string
@@ -105,7 +105,7 @@ dict = {'Company': company_list, 'Location': location_list, 'Type': type_list, '
 'Description': description_list, 'Company_url': company_url_list, 'Company_logo': company_logo_list,'Latitude': latitude_list, 'Longitude' : longitude_list}
 
 df = pd.DataFrame(dict)
-df = df.drop_duplicates(subset='Company', keep='last')
+# df = df.drop_duplicates(subset='Company', keep='last')
 df = df[df.Latitude != '']
 
-df.to_csv('data/job_search_info1.csv')
+df.to_csv('data/job_search_info2.csv')

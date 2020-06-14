@@ -1,0 +1,983 @@
+,Company,Location,Type,Title,Description,Company_url,Company_logo,Latitude,Longitude
+4,Teal,,Full Time,,,,,38.3404922,-92.2413432
+17,BlueVolt,"Portland, OR, US",Full Time,,,,,45.507856,-122.690794
+18,BlueVolt,"Portland, OR, US",Full Time,Senior Software Engineer (.NET),,,,45.507856,-122.690794
+19,BlueVolt,"Portland, OR, US",Full Time,Senior Software Engineer (.NET),"<p>Position Summary</p>
+<p>BlueVolt is growing. We have excellent product-market fit with loyal customers. We have thousands of customer admin users and hundreds of thousands of learner users. We are known in the skilled trades for our simple, effective learning platform and strong service ethic. We help companies turn learning into a strategic asset. We build strong relationships, growing and learning from our customers as they grow and learn from us.</p>
+<p>We're looking for someone to take on the responsibility to help develop software that customers love while working in an Agile development environment. You'll help ensure high quality standards and will work with the team to develop effective processes for managing all aspects of software development. You will be a core contributor to the platform and will participate in other software and infrastructure projects as needed.</p>
+<p>Responsibilities</p>
+<ul>
+<li>Develop software on a fully cloud-hosted SaaS product.</li>
+<li>Design and author highly functional and aesthetically pleasing software for our product lines, including the BlueVolt LMS, web portals and other software projects.</li>
+<li>Develop client requirements, estimate, advise upon, and deliver the appropriate solution.</li>
+<li>Improve configuration management practices and development processes.</li>
+<li>Develop automated tests and follow Test-Driven Development practices.</li>
+<li>Provide technical support, training, and subject matter expertise to clients and BlueVolt employees.</li>
+<li>Help build development team guidelines and reinforcement their practice.</li>
+<li>Work with management and team on identifying obstacles and removing them</li>
+</ul>
+<p>Requirements</p>
+<ul>
+<li>5+ years of experience with the .NET platform</li>
+<li>Excellent object-oriented design &amp; programming skills, including the application of design patterns and avoidance of anti-patterns</li>
+<li>Experience working in a collaborative team of application developers and source code repositories. TFS is preferred</li>
+<li>Solid programming experience with C#, WCF, Restful services using WEB API, and ASP.NET MVC.</li>
+<li>Experience with SQL and SQL Server Database Programming</li>
+<li>Experience with JavaScript, JQuery, AngularJS and Angular</li>
+<li>Experience with TDD using nUnit and MS Test, Auto Tests (Selenium is preferred)</li>
+<li>Agile/SCRUM Software Development Process</li>
+<li>Excellent written and verbal communication skills</li>
+<li>Good team player</li>
+</ul>
+<p>Bonus Points:  Azure expertise a Plus</p>
+<p>Note: No H1/H1B/F1 Visa transfer sponsorship available for this opportunity, no new sponsorship applications.</p>
+<p>Location:  Portland, OR</p>
+",,,45.507856,-122.690794
+20,BlueVolt,"Portland, OR, US",Full Time,Senior Software Engineer (.NET),"<p>Position Summary</p>
+<p>BlueVolt is growing. We have excellent product-market fit with loyal customers. We have thousands of customer admin users and hundreds of thousands of learner users. We are known in the skilled trades for our simple, effective learning platform and strong service ethic. We help companies turn learning into a strategic asset. We build strong relationships, growing and learning from our customers as they grow and learn from us.</p>
+<p>We're looking for someone to take on the responsibility to help develop software that customers love while working in an Agile development environment. You'll help ensure high quality standards and will work with the team to develop effective processes for managing all aspects of software development. You will be a core contributor to the platform and will participate in other software and infrastructure projects as needed.</p>
+<p>Responsibilities</p>
+<ul>
+<li>Develop software on a fully cloud-hosted SaaS product.</li>
+<li>Design and author highly functional and aesthetically pleasing software for our product lines, including the BlueVolt LMS, web portals and other software projects.</li>
+<li>Develop client requirements, estimate, advise upon, and deliver the appropriate solution.</li>
+<li>Improve configuration management practices and development processes.</li>
+<li>Develop automated tests and follow Test-Driven Development practices.</li>
+<li>Provide technical support, training, and subject matter expertise to clients and BlueVolt employees.</li>
+<li>Help build development team guidelines and reinforcement their practice.</li>
+<li>Work with management and team on identifying obstacles and removing them</li>
+</ul>
+<p>Requirements</p>
+<ul>
+<li>5+ years of experience with the .NET platform</li>
+<li>Excellent object-oriented design &amp; programming skills, including the application of design patterns and avoidance of anti-patterns</li>
+<li>Experience working in a collaborative team of application developers and source code repositories. TFS is preferred</li>
+<li>Solid programming experience with C#, WCF, Restful services using WEB API, and ASP.NET MVC.</li>
+<li>Experience with SQL and SQL Server Database Programming</li>
+<li>Experience with JavaScript, JQuery, AngularJS and Angular</li>
+<li>Experience with TDD using nUnit and MS Test, Auto Tests (Selenium is preferred)</li>
+<li>Agile/SCRUM Software Development Process</li>
+<li>Excellent written and verbal communication skills</li>
+<li>Good team player</li>
+</ul>
+<p>Bonus Points:  Azure expertise a Plus</p>
+<p>Note: No H1/H1B/F1 Visa transfer sponsorship available for this opportunity, no new sponsorship applications.</p>
+<p>Location:  Portland, OR</p>
+",,,45.507856,-122.690794
+21,BlueVolt,"Portland, OR, US",Full Time,Senior Software Engineer (.NET),"<p>Position Summary</p>
+<p>BlueVolt is growing. We have excellent product-market fit with loyal customers. We have thousands of customer admin users and hundreds of thousands of learner users. We are known in the skilled trades for our simple, effective learning platform and strong service ethic. We help companies turn learning into a strategic asset. We build strong relationships, growing and learning from our customers as they grow and learn from us.</p>
+<p>We're looking for someone to take on the responsibility to help develop software that customers love while working in an Agile development environment. You'll help ensure high quality standards and will work with the team to develop effective processes for managing all aspects of software development. You will be a core contributor to the platform and will participate in other software and infrastructure projects as needed.</p>
+<p>Responsibilities</p>
+<ul>
+<li>Develop software on a fully cloud-hosted SaaS product.</li>
+<li>Design and author highly functional and aesthetically pleasing software for our product lines, including the BlueVolt LMS, web portals and other software projects.</li>
+<li>Develop client requirements, estimate, advise upon, and deliver the appropriate solution.</li>
+<li>Improve configuration management practices and development processes.</li>
+<li>Develop automated tests and follow Test-Driven Development practices.</li>
+<li>Provide technical support, training, and subject matter expertise to clients and BlueVolt employees.</li>
+<li>Help build development team guidelines and reinforcement their practice.</li>
+<li>Work with management and team on identifying obstacles and removing them</li>
+</ul>
+<p>Requirements</p>
+<ul>
+<li>5+ years of experience with the .NET platform</li>
+<li>Excellent object-oriented design &amp; programming skills, including the application of design patterns and avoidance of anti-patterns</li>
+<li>Experience working in a collaborative team of application developers and source code repositories. TFS is preferred</li>
+<li>Solid programming experience with C#, WCF, Restful services using WEB API, and ASP.NET MVC.</li>
+<li>Experience with SQL and SQL Server Database Programming</li>
+<li>Experience with JavaScript, JQuery, AngularJS and Angular</li>
+<li>Experience with TDD using nUnit and MS Test, Auto Tests (Selenium is preferred)</li>
+<li>Agile/SCRUM Software Development Process</li>
+<li>Excellent written and verbal communication skills</li>
+<li>Good team player</li>
+</ul>
+<p>Bonus Points:  Azure expertise a Plus</p>
+<p>Note: No H1/H1B/F1 Visa transfer sponsorship available for this opportunity, no new sponsorship applications.</p>
+<p>Location:  Portland, OR</p>
+",,,45.507856,-122.690794
+26,Lawrence Berkeley National Laboratory ,,Full Time,,,,,37.8769276,-122.2489253
+27,Lawrence Berkeley National Laboratory ,,Full Time,,,http://www.lbl.gov,,37.8769276,-122.2489253
+28,Lawrence Berkeley National Laboratory ,Berkeley,Full Time,,,http://www.lbl.gov,,37.8769276,-122.2489253
+29,Lawrence Berkeley National Laboratory ,Berkeley,Full Time,Web Developer (The Materials Project) ,,http://www.lbl.gov,,37.8769276,-122.2489253
+30,Lawrence Berkeley National Laboratory ,Berkeley,Full Time,Web Developer (The Materials Project) ,"<p>Web Developer (The Materials Project) - 90287
+Organization:  ED-Energy Storage &amp; Distributed Resources</p>
+<p>Berkeley Lab’s Energy Storage &amp; Distributed Resources (ESDR) Division has an opening for a Web Developer to join the Materials Project!</p>
+<p>In this role, you will work in a small team composed of both computer scientists and materials scientists, a team that will continue to grow and evolve as our fast-paced project pushes new boundaries. We are seeking web developers and designers who are versatile and passionate about both the front-end, ready to tackle new problems as we continue to push technology and science forward.</p>
+<p>Be part of the revolution in scientific and technological breakthroughs brought on by advanced computing.  We are looking for someone with the desire and imagination to drive the Materials Project in new and exciting directions as the number and diversity of our simulations grow.</p>
+<p>The Materials Project (<a href=""http://www.materialsproject.org"">www.materialsproject.org</a>) is a leader in the new wave of ""data-driven science"" that is already affecting how thousands of scientists, many of them world leaders in their fields, connect, explore, and interact with information and one another. We use millions of CPU-hours a year to compute the properties of advanced new materials, and disseminate the information with web interfaces and APIs.</p>
+<p>What You Will Do:</p>
+<ul>
+<li>Develop and manage the Materials Project website: <a href=""http://www.materalsproject.org"">www.materalsproject.org</a>
+</li>
+<li>Develop responsive front-ends for scientists ranging from undergraduate students to senior researchers and professors.</li>
+<li>Optimize website design for usability, scalability, and speed.</li>
+<li>Write well designed and testable code in HTML/CSS/JS.</li>
+<li>Employ continuous integration and deployment practices to ensure code quality and rapid development of new features.</li>
+<li>Utilize website testing and web analytics to optimize website performance.</li>
+<li>Develop new means of exploring, visualizing and sharing materials data.</li>
+<li>Design and implement new “apps” for new types of materials analyses, such as assessing next-generation battery properties or stability of CO2 capturing catalysts in water.</li>
+<li>Expand the project to new territories, such as crowdsourced discovery of new materials and ""sandboxes"" for private exploration of interesting chemical compounds.</li>
+<li>Participate in discussions with science teams, workshops, and weekly meetings.</li>
+</ul>
+<p>What is Required:</p>
+<ul>
+<li>Bachelor’s Degree in Computer Science or a related discipline and a minimum of 5 years of related technical experience or an equivalent combination of education and experience.</li>
+<li>Experience writing HTML, CSS and modern JavaScript (ES6) or TypeScript.</li>
+<li>Experience building web sites with modern frontend web frameworks such as React, Angular, or Vue.</li>
+<li>Experience working collaboratively using Git-based workflows.</li>
+<li>Experience developing CI/CD pipelines for web projects.</li>
+<li>Experience with Containerized service deployments.</li>
+<li>Knowledge of User interface design principles and API Protocols including REST.</li>
+</ul>
+<p>What We Prefer:</p>
+<ul>
+<li>Master’s Degree in Computer Science or a related discipline.</li>
+<li>Experience with mockup/wireframe/prototyping tools.</li>
+<li>Knowledge of Authentication protocols and standards such as OAuth, OpenID and CAS.</li>
+<li>Experience with NoSQL databases with MongoDB.</li>
+<li>Experience with Firewall configuration.</li>
+<li>Experience with Log analysis.</li>
+</ul>
+<p>The posting shall remain open until the position is filled, however for full consideration, please apply by close of business on June 30, 2020.</p>
+<p>This posting was updated on 06/11/2020.</p>
+<p>Notes:</p>
+<ul>
+<li>This is a full time, M-F, exempt from overtime pay (monthly paid), 1 year, Term appointment with the possibility of renewal for a total of 5 years or conversion to Career appointment based upon satisfactory job performance, continuing availability of funds and ongoing operational needs.</li>
+<li>Salary is commensurate with experience.</li>
+<li>This position may be subject to a background check. Any convictions will be evaluated to determine if they directly relate to the responsibilities and requirements of the position. Having a conviction history will not automatically disqualify an applicant from being considered for employment.</li>
+<li>Work for this position will be primarily performed at Lawrence Berkeley National Lab, 1 Cyclotron Road, Berkeley, CA however the option of working remotely may be considered but is limited to individuals residing in the United States.</li>
+</ul>
+<p>How To Apply
+Apply directly online at <a href=""http://50.73.55.13/counter.php?id=182299"">http://50.73.55.13/counter.php?id=182299</a> and follow the on-line instructions to complete the application process.</p>
+<p>Berkeley Lab (LBNL, <a href=""https://www.lbl.gov/"">https://www.lbl.gov/</a>) addresses the world’s most urgent scientific challenges by advancing sustainable energy, protecting human health, creating new materials, and revealing the origin and fate of the universe. Founded in 1931, Berkeley Lab’s scientific expertise has been recognized with 13 Nobel prizes. The University of California manages Berkeley Lab for the U.S. Department of Energy’s Office of Science.</p>
+<p>The ESDR Division (<a href=""https://appliedenergyscience.lbl.gov/"">https://appliedenergyscience.lbl.gov/</a>) works on developing advanced batteries and fuel cells for transportation and stationary energy storage, grid-connected technologies for a cleaner, more reliable, resilient, and cost-effective future, and demand response and distributed energy technologies for a dynamic electric grid.</p>
+<p>Working at Berkeley Lab has many rewards including a competitive compensation program, excellent health and welfare programs, a retirement program that is second to none, and outstanding development opportunities.  To view information about the many rewards that are offered at Berkeley Lab - Click Here (<a href=""https://hr.lbl.gov/"">https://hr.lbl.gov/</a>).</p>
+<p>Equal Employment Opportunity: Berkeley Lab is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status. Berkeley Lab is in compliance with the Pay Transparency Nondiscrimination Provision (<a href=""https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html"">https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html</a>) under 41 CFR 60-1.4.  Click here (<a href=""https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm"">https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm</a>) to view the poster and supplement: ""Equal Employment Opportunity is the Law.""</p>
+<p>Lawrence Berkeley National Laboratory encourages applications from women, minorities, veterans, and other underrepresented groups presently considering scientific research careers.</p>
+",http://www.lbl.gov,,37.8769276,-122.2489253
+31,Lawrence Berkeley National Laboratory ,Berkeley,Full Time,Web Developer (The Materials Project) ,"<p>Web Developer (The Materials Project) - 90287
+Organization:  ED-Energy Storage &amp; Distributed Resources</p>
+<p>Berkeley Lab’s Energy Storage &amp; Distributed Resources (ESDR) Division has an opening for a Web Developer to join the Materials Project!</p>
+<p>In this role, you will work in a small team composed of both computer scientists and materials scientists, a team that will continue to grow and evolve as our fast-paced project pushes new boundaries. We are seeking web developers and designers who are versatile and passionate about both the front-end, ready to tackle new problems as we continue to push technology and science forward.</p>
+<p>Be part of the revolution in scientific and technological breakthroughs brought on by advanced computing.  We are looking for someone with the desire and imagination to drive the Materials Project in new and exciting directions as the number and diversity of our simulations grow.</p>
+<p>The Materials Project (<a href=""http://www.materialsproject.org"">www.materialsproject.org</a>) is a leader in the new wave of ""data-driven science"" that is already affecting how thousands of scientists, many of them world leaders in their fields, connect, explore, and interact with information and one another. We use millions of CPU-hours a year to compute the properties of advanced new materials, and disseminate the information with web interfaces and APIs.</p>
+<p>What You Will Do:</p>
+<ul>
+<li>Develop and manage the Materials Project website: <a href=""http://www.materalsproject.org"">www.materalsproject.org</a>
+</li>
+<li>Develop responsive front-ends for scientists ranging from undergraduate students to senior researchers and professors.</li>
+<li>Optimize website design for usability, scalability, and speed.</li>
+<li>Write well designed and testable code in HTML/CSS/JS.</li>
+<li>Employ continuous integration and deployment practices to ensure code quality and rapid development of new features.</li>
+<li>Utilize website testing and web analytics to optimize website performance.</li>
+<li>Develop new means of exploring, visualizing and sharing materials data.</li>
+<li>Design and implement new “apps” for new types of materials analyses, such as assessing next-generation battery properties or stability of CO2 capturing catalysts in water.</li>
+<li>Expand the project to new territories, such as crowdsourced discovery of new materials and ""sandboxes"" for private exploration of interesting chemical compounds.</li>
+<li>Participate in discussions with science teams, workshops, and weekly meetings.</li>
+</ul>
+<p>What is Required:</p>
+<ul>
+<li>Bachelor’s Degree in Computer Science or a related discipline and a minimum of 5 years of related technical experience or an equivalent combination of education and experience.</li>
+<li>Experience writing HTML, CSS and modern JavaScript (ES6) or TypeScript.</li>
+<li>Experience building web sites with modern frontend web frameworks such as React, Angular, or Vue.</li>
+<li>Experience working collaboratively using Git-based workflows.</li>
+<li>Experience developing CI/CD pipelines for web projects.</li>
+<li>Experience with Containerized service deployments.</li>
+<li>Knowledge of User interface design principles and API Protocols including REST.</li>
+</ul>
+<p>What We Prefer:</p>
+<ul>
+<li>Master’s Degree in Computer Science or a related discipline.</li>
+<li>Experience with mockup/wireframe/prototyping tools.</li>
+<li>Knowledge of Authentication protocols and standards such as OAuth, OpenID and CAS.</li>
+<li>Experience with NoSQL databases with MongoDB.</li>
+<li>Experience with Firewall configuration.</li>
+<li>Experience with Log analysis.</li>
+</ul>
+<p>The posting shall remain open until the position is filled, however for full consideration, please apply by close of business on June 30, 2020.</p>
+<p>This posting was updated on 06/11/2020.</p>
+<p>Notes:</p>
+<ul>
+<li>This is a full time, M-F, exempt from overtime pay (monthly paid), 1 year, Term appointment with the possibility of renewal for a total of 5 years or conversion to Career appointment based upon satisfactory job performance, continuing availability of funds and ongoing operational needs.</li>
+<li>Salary is commensurate with experience.</li>
+<li>This position may be subject to a background check. Any convictions will be evaluated to determine if they directly relate to the responsibilities and requirements of the position. Having a conviction history will not automatically disqualify an applicant from being considered for employment.</li>
+<li>Work for this position will be primarily performed at Lawrence Berkeley National Lab, 1 Cyclotron Road, Berkeley, CA however the option of working remotely may be considered but is limited to individuals residing in the United States.</li>
+</ul>
+<p>How To Apply
+Apply directly online at <a href=""http://50.73.55.13/counter.php?id=182299"">http://50.73.55.13/counter.php?id=182299</a> and follow the on-line instructions to complete the application process.</p>
+<p>Berkeley Lab (LBNL, <a href=""https://www.lbl.gov/"">https://www.lbl.gov/</a>) addresses the world’s most urgent scientific challenges by advancing sustainable energy, protecting human health, creating new materials, and revealing the origin and fate of the universe. Founded in 1931, Berkeley Lab’s scientific expertise has been recognized with 13 Nobel prizes. The University of California manages Berkeley Lab for the U.S. Department of Energy’s Office of Science.</p>
+<p>The ESDR Division (<a href=""https://appliedenergyscience.lbl.gov/"">https://appliedenergyscience.lbl.gov/</a>) works on developing advanced batteries and fuel cells for transportation and stationary energy storage, grid-connected technologies for a cleaner, more reliable, resilient, and cost-effective future, and demand response and distributed energy technologies for a dynamic electric grid.</p>
+<p>Working at Berkeley Lab has many rewards including a competitive compensation program, excellent health and welfare programs, a retirement program that is second to none, and outstanding development opportunities.  To view information about the many rewards that are offered at Berkeley Lab - Click Here (<a href=""https://hr.lbl.gov/"">https://hr.lbl.gov/</a>).</p>
+<p>Equal Employment Opportunity: Berkeley Lab is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status. Berkeley Lab is in compliance with the Pay Transparency Nondiscrimination Provision (<a href=""https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html"">https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html</a>) under 41 CFR 60-1.4.  Click here (<a href=""https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm"">https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm</a>) to view the poster and supplement: ""Equal Employment Opportunity is the Law.""</p>
+<p>Lawrence Berkeley National Laboratory encourages applications from women, minorities, veterans, and other underrepresented groups presently considering scientific research careers.</p>
+",http://www.lbl.gov,,37.8769276,-122.2489253
+32,Lawrence Berkeley National Laboratory ,Berkeley,Full Time,Web Developer (The Materials Project) ,"<p>Web Developer (The Materials Project) - 90287
+Organization:  ED-Energy Storage &amp; Distributed Resources</p>
+<p>Berkeley Lab’s Energy Storage &amp; Distributed Resources (ESDR) Division has an opening for a Web Developer to join the Materials Project!</p>
+<p>In this role, you will work in a small team composed of both computer scientists and materials scientists, a team that will continue to grow and evolve as our fast-paced project pushes new boundaries. We are seeking web developers and designers who are versatile and passionate about both the front-end, ready to tackle new problems as we continue to push technology and science forward.</p>
+<p>Be part of the revolution in scientific and technological breakthroughs brought on by advanced computing.  We are looking for someone with the desire and imagination to drive the Materials Project in new and exciting directions as the number and diversity of our simulations grow.</p>
+<p>The Materials Project (<a href=""http://www.materialsproject.org"">www.materialsproject.org</a>) is a leader in the new wave of ""data-driven science"" that is already affecting how thousands of scientists, many of them world leaders in their fields, connect, explore, and interact with information and one another. We use millions of CPU-hours a year to compute the properties of advanced new materials, and disseminate the information with web interfaces and APIs.</p>
+<p>What You Will Do:</p>
+<ul>
+<li>Develop and manage the Materials Project website: <a href=""http://www.materalsproject.org"">www.materalsproject.org</a>
+</li>
+<li>Develop responsive front-ends for scientists ranging from undergraduate students to senior researchers and professors.</li>
+<li>Optimize website design for usability, scalability, and speed.</li>
+<li>Write well designed and testable code in HTML/CSS/JS.</li>
+<li>Employ continuous integration and deployment practices to ensure code quality and rapid development of new features.</li>
+<li>Utilize website testing and web analytics to optimize website performance.</li>
+<li>Develop new means of exploring, visualizing and sharing materials data.</li>
+<li>Design and implement new “apps” for new types of materials analyses, such as assessing next-generation battery properties or stability of CO2 capturing catalysts in water.</li>
+<li>Expand the project to new territories, such as crowdsourced discovery of new materials and ""sandboxes"" for private exploration of interesting chemical compounds.</li>
+<li>Participate in discussions with science teams, workshops, and weekly meetings.</li>
+</ul>
+<p>What is Required:</p>
+<ul>
+<li>Bachelor’s Degree in Computer Science or a related discipline and a minimum of 5 years of related technical experience or an equivalent combination of education and experience.</li>
+<li>Experience writing HTML, CSS and modern JavaScript (ES6) or TypeScript.</li>
+<li>Experience building web sites with modern frontend web frameworks such as React, Angular, or Vue.</li>
+<li>Experience working collaboratively using Git-based workflows.</li>
+<li>Experience developing CI/CD pipelines for web projects.</li>
+<li>Experience with Containerized service deployments.</li>
+<li>Knowledge of User interface design principles and API Protocols including REST.</li>
+</ul>
+<p>What We Prefer:</p>
+<ul>
+<li>Master’s Degree in Computer Science or a related discipline.</li>
+<li>Experience with mockup/wireframe/prototyping tools.</li>
+<li>Knowledge of Authentication protocols and standards such as OAuth, OpenID and CAS.</li>
+<li>Experience with NoSQL databases with MongoDB.</li>
+<li>Experience with Firewall configuration.</li>
+<li>Experience with Log analysis.</li>
+</ul>
+<p>The posting shall remain open until the position is filled, however for full consideration, please apply by close of business on June 30, 2020.</p>
+<p>This posting was updated on 06/11/2020.</p>
+<p>Notes:</p>
+<ul>
+<li>This is a full time, M-F, exempt from overtime pay (monthly paid), 1 year, Term appointment with the possibility of renewal for a total of 5 years or conversion to Career appointment based upon satisfactory job performance, continuing availability of funds and ongoing operational needs.</li>
+<li>Salary is commensurate with experience.</li>
+<li>This position may be subject to a background check. Any convictions will be evaluated to determine if they directly relate to the responsibilities and requirements of the position. Having a conviction history will not automatically disqualify an applicant from being considered for employment.</li>
+<li>Work for this position will be primarily performed at Lawrence Berkeley National Lab, 1 Cyclotron Road, Berkeley, CA however the option of working remotely may be considered but is limited to individuals residing in the United States.</li>
+</ul>
+<p>How To Apply
+Apply directly online at <a href=""http://50.73.55.13/counter.php?id=182299"">http://50.73.55.13/counter.php?id=182299</a> and follow the on-line instructions to complete the application process.</p>
+<p>Berkeley Lab (LBNL, <a href=""https://www.lbl.gov/"">https://www.lbl.gov/</a>) addresses the world’s most urgent scientific challenges by advancing sustainable energy, protecting human health, creating new materials, and revealing the origin and fate of the universe. Founded in 1931, Berkeley Lab’s scientific expertise has been recognized with 13 Nobel prizes. The University of California manages Berkeley Lab for the U.S. Department of Energy’s Office of Science.</p>
+<p>The ESDR Division (<a href=""https://appliedenergyscience.lbl.gov/"">https://appliedenergyscience.lbl.gov/</a>) works on developing advanced batteries and fuel cells for transportation and stationary energy storage, grid-connected technologies for a cleaner, more reliable, resilient, and cost-effective future, and demand response and distributed energy technologies for a dynamic electric grid.</p>
+<p>Working at Berkeley Lab has many rewards including a competitive compensation program, excellent health and welfare programs, a retirement program that is second to none, and outstanding development opportunities.  To view information about the many rewards that are offered at Berkeley Lab - Click Here (<a href=""https://hr.lbl.gov/"">https://hr.lbl.gov/</a>).</p>
+<p>Equal Employment Opportunity: Berkeley Lab is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, age, or protected veteran status. Berkeley Lab is in compliance with the Pay Transparency Nondiscrimination Provision (<a href=""https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html"">https://www.dol.gov/ofccp/PayTransparencyNondiscrimination.html</a>) under 41 CFR 60-1.4.  Click here (<a href=""https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm"">https://www.dol.gov/ofccp/regs/compliance/posters/ofccpost.htm</a>) to view the poster and supplement: ""Equal Employment Opportunity is the Law.""</p>
+<p>Lawrence Berkeley National Laboratory encourages applications from women, minorities, veterans, and other underrepresented groups presently considering scientific research careers.</p>
+",http://www.lbl.gov,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdXFFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7e9b2b98a80b20de6ddd0d2562a153f66bdd0479/Lawrence%20Berkeley%20Lab%20blue%20background.png,37.8769276,-122.2489253
+59,Arcadia,,Full Time,,,,,34.1362075,-118.0401497
+60,Arcadia,,Full Time,,,https://www.arcadia.com,,34.1362075,-118.0401497
+202,Game Closure,,Full Time,,,,,37.3902897,-122.0805114
+203,Game Closure,,Full Time,,,http://gameclosure.com,,37.3902897,-122.0805114
+215,Defendify,Maine,Full Time,,,https://www.defendify.io/,,44.507856,-67.859167
+216,Defendify,Maine,Full Time,Full Stack Engineer,,https://www.defendify.io/,,44.507856,-67.859167
+217,Defendify,Maine,Full Time,Full Stack Engineer,"<p>Thanks for your interest in working with us! Defendify is a fast-growing, fun-loving cybersecurity startup with a small, vibrant team based in Portland, Maine. Resourcefulness, responsiveness, problem-solving, and simplicity are values that shape who we are, what we do, and how we deliver amazing customer experiences.</p>
+<p><strong>We're looking for a full stack developer to join us full-time, locally and/or in a remote capacity.</strong></p>
+<p>This is a unique and exciting opportunity as we continue to expand the footprint of our groundbreaking, all-in-one cybersecurity platform. Every team member is a valuable contributor to our core SaaS product with day-to-day responsibilities covering a variety of development needs including building, maintaining, QA, and support for every aspect of the Defendify platform.</p>
+<p><strong>We are looking for a team player who:</strong></p>
+<ul>
+<li>Has a passion for solving problems and is eager to grow, learn, and tackle daily and long-term challenges and goals.</li>
+<li>Will dig in and ask questions from users to understand requirements; make a plan; dive into an existing codebase and learn where to make changes, or where to start new code.</li>
+<li>Is a good communicator who enjoys collaboration and thrives in a development culture that values clean code, automation and testability.</li>
+<li>Maintains excellent knowledge of how modern web applications work, including REST API usage, application security, cloud deployment and development best practices.</li>
+<li>Is comfortable self-directing their own work. No micro-management here!</li>
+</ul>
+<p><strong>Requirements – Experience</strong></p>
+<ul>
+<li>3+ years of Full-Stack Development experience</li>
+<li>Has been responsible for the entire lifecycle of code in at least one project, from scratch to QA to deployment to maintenance.</li>
+<li>Has experience implementing a RESTful API and an application which consumes it.</li>
+<li>Is familiar with the philosophy and implementation of development automation: tests, continuous integration, cloud deployment, and frequent production releases using an Agile/SCRUM process.</li>
+<li>Some DevOps experience is a plus.</li>
+</ul>
+<p><strong>Requirements – Technical</strong></p>
+<ul>
+<li>Experienced in JavaScript including ES6, await/async, linting and front-end frameworks. We use libraries and frameworks as needed, but you need to be able to write and understand plain JS.</li>
+<li>Experience with Node and Browser based environments is required.</li>
+<li>Understand REST APIs and their role in application architectures.</li>
+<li>Experience with front end development: HTML, CSS, and familiarity with the ecosystem of related technologies (SASS, DOM). In addition, Vue (or similar framework) experience and knowledge of static site generators such as Jekyll/Hugo are helpful.</li>
+<li>Understand how to use Git(+Hub) and GitHub Flow.</li>
+<li>Some relational database experience is preferred. Pluses include: Experiences in relational and in-memory databases (MySQL, Postgres, Redis) as well as knowledge in generic SQL.</li>
+<li>Some experience with Amazon Web Services (AWS), Heroku, or similar services.</li>
+</ul>
+<p><strong>Your Success</strong></p>
+<p>You are not alone in your role – Defendify's development team is made up of ""A"" players dedicated to your training and success. We thrive on an open-door policy and transparent management system that fosters team collaboration.</p>
+<p><strong>Compensation and Benefits</strong></p>
+<p>This is a flexible position open to candidates with varying levels of experience and offers long term growth potential via a well-defined career path. Compensation is competitive and commensurate with experience, and is variable based on personal and team performance. Our benefits package is comprehensive and includes health, dental, and vision coverage, educational reimbursement, a 401(k) program, paid time-off and more.</p>
+<p><strong>Love What You Do</strong></p>
+<p>Defendify employees enjoy a modern work environment and culture where everyone genuinely cares about the work they do. We're passionate about our product, the problems we're solving, our customers, our partners, and our team. We're in it together, enjoying work and play every day from team lunches, impromptu social outings and celebrations, and charity missions. And yes, there is coffee, lots and lots of coffee!</p>
+<p><strong>Opportunity Knocks</strong></p>
+<p>This position offers a great opportunity to make an impact as a part of a small team solving big problems, making cybersecurity possible for Small Business. Are you a creative self-starter with an appetite to learn and grow? If so, we'd love to hear from you!</p>
+",https://www.defendify.io/,,44.507856,-67.859167
+218,Defendify,Maine,Full Time,Full Stack Engineer,"<p>Thanks for your interest in working with us! Defendify is a fast-growing, fun-loving cybersecurity startup with a small, vibrant team based in Portland, Maine. Resourcefulness, responsiveness, problem-solving, and simplicity are values that shape who we are, what we do, and how we deliver amazing customer experiences.</p>
+<p><strong>We're looking for a full stack developer to join us full-time, locally and/or in a remote capacity.</strong></p>
+<p>This is a unique and exciting opportunity as we continue to expand the footprint of our groundbreaking, all-in-one cybersecurity platform. Every team member is a valuable contributor to our core SaaS product with day-to-day responsibilities covering a variety of development needs including building, maintaining, QA, and support for every aspect of the Defendify platform.</p>
+<p><strong>We are looking for a team player who:</strong></p>
+<ul>
+<li>Has a passion for solving problems and is eager to grow, learn, and tackle daily and long-term challenges and goals.</li>
+<li>Will dig in and ask questions from users to understand requirements; make a plan; dive into an existing codebase and learn where to make changes, or where to start new code.</li>
+<li>Is a good communicator who enjoys collaboration and thrives in a development culture that values clean code, automation and testability.</li>
+<li>Maintains excellent knowledge of how modern web applications work, including REST API usage, application security, cloud deployment and development best practices.</li>
+<li>Is comfortable self-directing their own work. No micro-management here!</li>
+</ul>
+<p><strong>Requirements – Experience</strong></p>
+<ul>
+<li>3+ years of Full-Stack Development experience</li>
+<li>Has been responsible for the entire lifecycle of code in at least one project, from scratch to QA to deployment to maintenance.</li>
+<li>Has experience implementing a RESTful API and an application which consumes it.</li>
+<li>Is familiar with the philosophy and implementation of development automation: tests, continuous integration, cloud deployment, and frequent production releases using an Agile/SCRUM process.</li>
+<li>Some DevOps experience is a plus.</li>
+</ul>
+<p><strong>Requirements – Technical</strong></p>
+<ul>
+<li>Experienced in JavaScript including ES6, await/async, linting and front-end frameworks. We use libraries and frameworks as needed, but you need to be able to write and understand plain JS.</li>
+<li>Experience with Node and Browser based environments is required.</li>
+<li>Understand REST APIs and their role in application architectures.</li>
+<li>Experience with front end development: HTML, CSS, and familiarity with the ecosystem of related technologies (SASS, DOM). In addition, Vue (or similar framework) experience and knowledge of static site generators such as Jekyll/Hugo are helpful.</li>
+<li>Understand how to use Git(+Hub) and GitHub Flow.</li>
+<li>Some relational database experience is preferred. Pluses include: Experiences in relational and in-memory databases (MySQL, Postgres, Redis) as well as knowledge in generic SQL.</li>
+<li>Some experience with Amazon Web Services (AWS), Heroku, or similar services.</li>
+</ul>
+<p><strong>Your Success</strong></p>
+<p>You are not alone in your role – Defendify's development team is made up of ""A"" players dedicated to your training and success. We thrive on an open-door policy and transparent management system that fosters team collaboration.</p>
+<p><strong>Compensation and Benefits</strong></p>
+<p>This is a flexible position open to candidates with varying levels of experience and offers long term growth potential via a well-defined career path. Compensation is competitive and commensurate with experience, and is variable based on personal and team performance. Our benefits package is comprehensive and includes health, dental, and vision coverage, educational reimbursement, a 401(k) program, paid time-off and more.</p>
+<p><strong>Love What You Do</strong></p>
+<p>Defendify employees enjoy a modern work environment and culture where everyone genuinely cares about the work they do. We're passionate about our product, the problems we're solving, our customers, our partners, and our team. We're in it together, enjoying work and play every day from team lunches, impromptu social outings and celebrations, and charity missions. And yes, there is coffee, lots and lots of coffee!</p>
+<p><strong>Opportunity Knocks</strong></p>
+<p>This position offers a great opportunity to make an impact as a part of a small team solving big problems, making cybersecurity possible for Small Business. Are you a creative self-starter with an appetite to learn and grow? If so, we'd love to hear from you!</p>
+",https://www.defendify.io/,,44.507856,-67.859167
+219,Defendify,Maine,Full Time,Full Stack Engineer,"<p>Thanks for your interest in working with us! Defendify is a fast-growing, fun-loving cybersecurity startup with a small, vibrant team based in Portland, Maine. Resourcefulness, responsiveness, problem-solving, and simplicity are values that shape who we are, what we do, and how we deliver amazing customer experiences.</p>
+<p><strong>We're looking for a full stack developer to join us full-time, locally and/or in a remote capacity.</strong></p>
+<p>This is a unique and exciting opportunity as we continue to expand the footprint of our groundbreaking, all-in-one cybersecurity platform. Every team member is a valuable contributor to our core SaaS product with day-to-day responsibilities covering a variety of development needs including building, maintaining, QA, and support for every aspect of the Defendify platform.</p>
+<p><strong>We are looking for a team player who:</strong></p>
+<ul>
+<li>Has a passion for solving problems and is eager to grow, learn, and tackle daily and long-term challenges and goals.</li>
+<li>Will dig in and ask questions from users to understand requirements; make a plan; dive into an existing codebase and learn where to make changes, or where to start new code.</li>
+<li>Is a good communicator who enjoys collaboration and thrives in a development culture that values clean code, automation and testability.</li>
+<li>Maintains excellent knowledge of how modern web applications work, including REST API usage, application security, cloud deployment and development best practices.</li>
+<li>Is comfortable self-directing their own work. No micro-management here!</li>
+</ul>
+<p><strong>Requirements – Experience</strong></p>
+<ul>
+<li>3+ years of Full-Stack Development experience</li>
+<li>Has been responsible for the entire lifecycle of code in at least one project, from scratch to QA to deployment to maintenance.</li>
+<li>Has experience implementing a RESTful API and an application which consumes it.</li>
+<li>Is familiar with the philosophy and implementation of development automation: tests, continuous integration, cloud deployment, and frequent production releases using an Agile/SCRUM process.</li>
+<li>Some DevOps experience is a plus.</li>
+</ul>
+<p><strong>Requirements – Technical</strong></p>
+<ul>
+<li>Experienced in JavaScript including ES6, await/async, linting and front-end frameworks. We use libraries and frameworks as needed, but you need to be able to write and understand plain JS.</li>
+<li>Experience with Node and Browser based environments is required.</li>
+<li>Understand REST APIs and their role in application architectures.</li>
+<li>Experience with front end development: HTML, CSS, and familiarity with the ecosystem of related technologies (SASS, DOM). In addition, Vue (or similar framework) experience and knowledge of static site generators such as Jekyll/Hugo are helpful.</li>
+<li>Understand how to use Git(+Hub) and GitHub Flow.</li>
+<li>Some relational database experience is preferred. Pluses include: Experiences in relational and in-memory databases (MySQL, Postgres, Redis) as well as knowledge in generic SQL.</li>
+<li>Some experience with Amazon Web Services (AWS), Heroku, or similar services.</li>
+</ul>
+<p><strong>Your Success</strong></p>
+<p>You are not alone in your role – Defendify's development team is made up of ""A"" players dedicated to your training and success. We thrive on an open-door policy and transparent management system that fosters team collaboration.</p>
+<p><strong>Compensation and Benefits</strong></p>
+<p>This is a flexible position open to candidates with varying levels of experience and offers long term growth potential via a well-defined career path. Compensation is competitive and commensurate with experience, and is variable based on personal and team performance. Our benefits package is comprehensive and includes health, dental, and vision coverage, educational reimbursement, a 401(k) program, paid time-off and more.</p>
+<p><strong>Love What You Do</strong></p>
+<p>Defendify employees enjoy a modern work environment and culture where everyone genuinely cares about the work they do. We're passionate about our product, the problems we're solving, our customers, our partners, and our team. We're in it together, enjoying work and play every day from team lunches, impromptu social outings and celebrations, and charity missions. And yes, there is coffee, lots and lots of coffee!</p>
+<p><strong>Opportunity Knocks</strong></p>
+<p>This position offers a great opportunity to make an impact as a part of a small team solving big problems, making cybersecurity possible for Small Business. Are you a creative self-starter with an appetite to learn and grow? If so, we'd love to hear from you!</p>
+",https://www.defendify.io/,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG1FIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--20ed44319c9fb13fadc44b99f028899632a7ffb8/Defendify_grey_R.png,44.507856,-67.859167
+259,Kasisto,New York,Full Time,,,http://www.kasisto.coom,,40.714269,-74.005973
+260,Kasisto,New York,Full Time,Front-End Software Engineer,,http://www.kasisto.coom,,40.714269,-74.005973
+261,Kasisto,New York,Full Time,Front-End Software Engineer,"<p>Humanizing Digital Experiences®</p>
+<p>Kasisto’s Digital Experience Platform, KAI, is designed for financial institutions to deliver the industry’s most amazing Conversational AI powered intelligent virtual assistants to their customers. KAI is open and extensible, and also fluent in the language of banking and finance. From simple retail transactions to the complex demands of corporate banks and wealth management, financial institutions can deliver meaningful digital interactions with KAI that help build their digital brand.</p>
+<p>Financial institutions around the world use KAI, including DBS Bank, J.P. Morgan, Mastercard, Standard Chartered, TD Bank, and Manulife Bank among others. They chose KAI for its proven track record to drive business results while improving customer experiences. The platform is used by millions of consumers around the world, all the time, across multiple channels, in different languages, and is optimized for performance, scalability, security, and compliance.</p>
+<p>This position</p>
+<p>We are looking for a Full-Stack, client side software engineer to help build and integrate responsive chat interfaces, analytics dashboards and reporting tools.</p>
+<p>What you’ll be doing</p>
+<p>Working closely with clients and internal engineering, product and design teams to gather requirements
+Building and integrating front-end applications with CSS, HTML, Javascript, jQuery, Vue.js, Webpack, Handlebars.js, LESS, Backbone, Python, Django and Java
+Working to improve user experience and functionality for tools
+Writing testable code utilizing common front-end unit and BDD testing frameworks
+What you need for this position</p>
+<p>3+ years in client-side web development with CSS, HTML, Javascript and jQuery
+Proven, full-stack front-end experience using Python and Django
+Other Modern Web Framework(s) experience is a plus (React, Vue, Angular, Ember)
+Experience working collaboratively to build scalable, modular, production software in an Agile environment
+Experience using RESTful json services
+Node.js and API development familiarity is plus
+D3.js is a plus</p>
+<p>What we offer:</p>
+<p>Competitive compensation package
+Ground floor opportunity within rapidly growing tech startup
+Great collaborative team environment
+Full Benefits
+Fun perks</p>
+<p>Location - NYC, Flatiron District</p>
+<p>We welcome your cover letter with a description of your previous complete experience and your resume.  Applicants must be authorized to work in the US as we are unable to sponsor.  Kasisto is an equal opportunity employer.</p>
+",http://www.kasisto.coom,,40.714269,-74.005973
+262,Kasisto,New York,Full Time,Front-End Software Engineer,"<p>Humanizing Digital Experiences®</p>
+<p>Kasisto’s Digital Experience Platform, KAI, is designed for financial institutions to deliver the industry’s most amazing Conversational AI powered intelligent virtual assistants to their customers. KAI is open and extensible, and also fluent in the language of banking and finance. From simple retail transactions to the complex demands of corporate banks and wealth management, financial institutions can deliver meaningful digital interactions with KAI that help build their digital brand.</p>
+<p>Financial institutions around the world use KAI, including DBS Bank, J.P. Morgan, Mastercard, Standard Chartered, TD Bank, and Manulife Bank among others. They chose KAI for its proven track record to drive business results while improving customer experiences. The platform is used by millions of consumers around the world, all the time, across multiple channels, in different languages, and is optimized for performance, scalability, security, and compliance.</p>
+<p>This position</p>
+<p>We are looking for a Full-Stack, client side software engineer to help build and integrate responsive chat interfaces, analytics dashboards and reporting tools.</p>
+<p>What you’ll be doing</p>
+<p>Working closely with clients and internal engineering, product and design teams to gather requirements
+Building and integrating front-end applications with CSS, HTML, Javascript, jQuery, Vue.js, Webpack, Handlebars.js, LESS, Backbone, Python, Django and Java
+Working to improve user experience and functionality for tools
+Writing testable code utilizing common front-end unit and BDD testing frameworks
+What you need for this position</p>
+<p>3+ years in client-side web development with CSS, HTML, Javascript and jQuery
+Proven, full-stack front-end experience using Python and Django
+Other Modern Web Framework(s) experience is a plus (React, Vue, Angular, Ember)
+Experience working collaboratively to build scalable, modular, production software in an Agile environment
+Experience using RESTful json services
+Node.js and API development familiarity is plus
+D3.js is a plus</p>
+<p>What we offer:</p>
+<p>Competitive compensation package
+Ground floor opportunity within rapidly growing tech startup
+Great collaborative team environment
+Full Benefits
+Fun perks</p>
+<p>Location - NYC, Flatiron District</p>
+<p>We welcome your cover letter with a description of your previous complete experience and your resume.  Applicants must be authorized to work in the US as we are unable to sponsor.  Kasisto is an equal opportunity employer.</p>
+",http://www.kasisto.coom,,40.714269,-74.005973
+263,Kasisto,New York,Full Time,Front-End Software Engineer,"<p>Humanizing Digital Experiences®</p>
+<p>Kasisto’s Digital Experience Platform, KAI, is designed for financial institutions to deliver the industry’s most amazing Conversational AI powered intelligent virtual assistants to their customers. KAI is open and extensible, and also fluent in the language of banking and finance. From simple retail transactions to the complex demands of corporate banks and wealth management, financial institutions can deliver meaningful digital interactions with KAI that help build their digital brand.</p>
+<p>Financial institutions around the world use KAI, including DBS Bank, J.P. Morgan, Mastercard, Standard Chartered, TD Bank, and Manulife Bank among others. They chose KAI for its proven track record to drive business results while improving customer experiences. The platform is used by millions of consumers around the world, all the time, across multiple channels, in different languages, and is optimized for performance, scalability, security, and compliance.</p>
+<p>This position</p>
+<p>We are looking for a Full-Stack, client side software engineer to help build and integrate responsive chat interfaces, analytics dashboards and reporting tools.</p>
+<p>What you’ll be doing</p>
+<p>Working closely with clients and internal engineering, product and design teams to gather requirements
+Building and integrating front-end applications with CSS, HTML, Javascript, jQuery, Vue.js, Webpack, Handlebars.js, LESS, Backbone, Python, Django and Java
+Working to improve user experience and functionality for tools
+Writing testable code utilizing common front-end unit and BDD testing frameworks
+What you need for this position</p>
+<p>3+ years in client-side web development with CSS, HTML, Javascript and jQuery
+Proven, full-stack front-end experience using Python and Django
+Other Modern Web Framework(s) experience is a plus (React, Vue, Angular, Ember)
+Experience working collaboratively to build scalable, modular, production software in an Agile environment
+Experience using RESTful json services
+Node.js and API development familiarity is plus
+D3.js is a plus</p>
+<p>What we offer:</p>
+<p>Competitive compensation package
+Ground floor opportunity within rapidly growing tech startup
+Great collaborative team environment
+Full Benefits
+Fun perks</p>
+<p>Location - NYC, Flatiron District</p>
+<p>We welcome your cover letter with a description of your previous complete experience and your resume.  Applicants must be authorized to work in the US as we are unable to sponsor.  Kasisto is an equal opportunity employer.</p>
+",http://www.kasisto.coom,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblNFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8401c5084da6bb1a0cacdd3ef319e6f919fcc738/Kasisto_Logo_c90x90.png,40.714269,-74.005973
+270,Kinsta,"North America, remote",Full Time,,,https://kinsta.com/,,43.00595,-123.89259
+271,Kinsta,"North America, remote",Full Time,Senior JavaScript Developer Trainer,,https://kinsta.com/,,43.00595,-123.89259
+272,Kinsta,"North America, remote",Full Time,Senior JavaScript Developer Trainer,"<p>Ever since Kinsta’s establishment, we have been focused on quality code. Not having investors and working on our own product has allowed us to use the latest technologies, and continuously refactor our code to make it better. One of the most effective tools in our arsenal is onboarding and continuous training which we would now like to take to a new level.</p>
+<p><strong>You will be tasked with expanding our existing training materials and applying them in the following areas:</strong></p>
+<ul>
+<li>The onboarding and initial training of new team members to give them the necessary skills and domain knowledge.</li>
+<li>The efficient training of our code school pipeline where our goal is to find driven students and give them the tools they need to become great developers at Kinsta.</li>
+<li>The continuous training of all members of our existing team to help them grow in key areas.</li>
+<li>We strongly believe in ownership and pairing it with the power and freedom to practice that ownership fully. Instilling this philosophy is a large part of our training efforts.</li>
+</ul>
+<p><strong>Additional tasks that we see as part of a continuous training process:</strong></p>
+<ul>
+<li>Participation in the review process across all projects.</li>
+<li>Tracking developer progression identifying bottlenecks and organizing training around them.</li>
+</ul>
+<p><strong>Location</strong></p>
+<p>At the moment we are looking for applicants who live and work in the USA or Canada and speak English as a first language.</p>
+<p><strong>Our Stack</strong></p>
+<p>We make a conscientious effort to use the latest and most powerful technologies and to keep them running on the latest stable version available.</p>
+<p>The most notable items on the list are: React, Node, GraphQL, SQL, NoSQL, Express, Webpack, Babel, TypeScript, Jest, Storybook, Git, Heroku, Docker, Stripe.</p>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>Minimum 5 years of working experience with Javascript including backend and frontend.</li>
+<li>Minimum 2 years of Javascript developer training and mentoring experience.</li>
+<li>High level knowledge of and experience with JS, latest ES methodologies and concepts, React, Node, Github, development patterns and testing patterns.</li>
+<li>High level knowledge of Typescript, Git, deployment and CI tools.</li>
+<li>Experience with GraphQL, Express, Webpack, Babel, Docker.</li>
+<li>Familiarity with hosting concepts.</li>
+</ul>
+<p><strong>Bonus Points</strong></p>
+<p>The following items are not requirements but would provide a shallower learning curve in this position:</p>
+<ul>
+<li>Experience with web hosting, server infrastructure or server management.</li>
+<li>Experience with payment processing (Stripe), customer support tools (Intercom).</li>
+<li>Experience working in multilingual teams.</li>
+</ul>
+<p><strong>Benefits</strong></p>
+<ul>
+<li>A dynamically growing international company where what you do has a direct and immediate impact.</li>
+<li>We have an amazing design (UI and UX) team so development receives fully researched and designed tasks.This is a fully remote role. The JavaScript Developer Trainer can work from anywhere with reliable broadband internet access.</li>
+<li>Our positions offer a great deal of flexibility, responsibility, and opportunity for growth for the right candidate.</li>
+</ul>
+<p>If you want to learn more about Kinsta and what it's like to work for our team, head to our website, Kinsta.com, and look for the About Us link in the footer.</p>
+",https://kinsta.com/,,43.00595,-123.89259
+273,Kinsta,"North America, remote",Full Time,Senior JavaScript Developer Trainer,"<p>Ever since Kinsta’s establishment, we have been focused on quality code. Not having investors and working on our own product has allowed us to use the latest technologies, and continuously refactor our code to make it better. One of the most effective tools in our arsenal is onboarding and continuous training which we would now like to take to a new level.</p>
+<p><strong>You will be tasked with expanding our existing training materials and applying them in the following areas:</strong></p>
+<ul>
+<li>The onboarding and initial training of new team members to give them the necessary skills and domain knowledge.</li>
+<li>The efficient training of our code school pipeline where our goal is to find driven students and give them the tools they need to become great developers at Kinsta.</li>
+<li>The continuous training of all members of our existing team to help them grow in key areas.</li>
+<li>We strongly believe in ownership and pairing it with the power and freedom to practice that ownership fully. Instilling this philosophy is a large part of our training efforts.</li>
+</ul>
+<p><strong>Additional tasks that we see as part of a continuous training process:</strong></p>
+<ul>
+<li>Participation in the review process across all projects.</li>
+<li>Tracking developer progression identifying bottlenecks and organizing training around them.</li>
+</ul>
+<p><strong>Location</strong></p>
+<p>At the moment we are looking for applicants who live and work in the USA or Canada and speak English as a first language.</p>
+<p><strong>Our Stack</strong></p>
+<p>We make a conscientious effort to use the latest and most powerful technologies and to keep them running on the latest stable version available.</p>
+<p>The most notable items on the list are: React, Node, GraphQL, SQL, NoSQL, Express, Webpack, Babel, TypeScript, Jest, Storybook, Git, Heroku, Docker, Stripe.</p>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>Minimum 5 years of working experience with Javascript including backend and frontend.</li>
+<li>Minimum 2 years of Javascript developer training and mentoring experience.</li>
+<li>High level knowledge of and experience with JS, latest ES methodologies and concepts, React, Node, Github, development patterns and testing patterns.</li>
+<li>High level knowledge of Typescript, Git, deployment and CI tools.</li>
+<li>Experience with GraphQL, Express, Webpack, Babel, Docker.</li>
+<li>Familiarity with hosting concepts.</li>
+</ul>
+<p><strong>Bonus Points</strong></p>
+<p>The following items are not requirements but would provide a shallower learning curve in this position:</p>
+<ul>
+<li>Experience with web hosting, server infrastructure or server management.</li>
+<li>Experience with payment processing (Stripe), customer support tools (Intercom).</li>
+<li>Experience working in multilingual teams.</li>
+</ul>
+<p><strong>Benefits</strong></p>
+<ul>
+<li>A dynamically growing international company where what you do has a direct and immediate impact.</li>
+<li>We have an amazing design (UI and UX) team so development receives fully researched and designed tasks.This is a fully remote role. The JavaScript Developer Trainer can work from anywhere with reliable broadband internet access.</li>
+<li>Our positions offer a great deal of flexibility, responsibility, and opportunity for growth for the right candidate.</li>
+</ul>
+<p>If you want to learn more about Kinsta and what it's like to work for our team, head to our website, Kinsta.com, and look for the About Us link in the footer.</p>
+",https://kinsta.com/,,43.00595,-123.89259
+274,Kinsta,"North America, remote",Full Time,Senior JavaScript Developer Trainer,"<p>Ever since Kinsta’s establishment, we have been focused on quality code. Not having investors and working on our own product has allowed us to use the latest technologies, and continuously refactor our code to make it better. One of the most effective tools in our arsenal is onboarding and continuous training which we would now like to take to a new level.</p>
+<p><strong>You will be tasked with expanding our existing training materials and applying them in the following areas:</strong></p>
+<ul>
+<li>The onboarding and initial training of new team members to give them the necessary skills and domain knowledge.</li>
+<li>The efficient training of our code school pipeline where our goal is to find driven students and give them the tools they need to become great developers at Kinsta.</li>
+<li>The continuous training of all members of our existing team to help them grow in key areas.</li>
+<li>We strongly believe in ownership and pairing it with the power and freedom to practice that ownership fully. Instilling this philosophy is a large part of our training efforts.</li>
+</ul>
+<p><strong>Additional tasks that we see as part of a continuous training process:</strong></p>
+<ul>
+<li>Participation in the review process across all projects.</li>
+<li>Tracking developer progression identifying bottlenecks and organizing training around them.</li>
+</ul>
+<p><strong>Location</strong></p>
+<p>At the moment we are looking for applicants who live and work in the USA or Canada and speak English as a first language.</p>
+<p><strong>Our Stack</strong></p>
+<p>We make a conscientious effort to use the latest and most powerful technologies and to keep them running on the latest stable version available.</p>
+<p>The most notable items on the list are: React, Node, GraphQL, SQL, NoSQL, Express, Webpack, Babel, TypeScript, Jest, Storybook, Git, Heroku, Docker, Stripe.</p>
+<p><strong>Requirements</strong></p>
+<ul>
+<li>Minimum 5 years of working experience with Javascript including backend and frontend.</li>
+<li>Minimum 2 years of Javascript developer training and mentoring experience.</li>
+<li>High level knowledge of and experience with JS, latest ES methodologies and concepts, React, Node, Github, development patterns and testing patterns.</li>
+<li>High level knowledge of Typescript, Git, deployment and CI tools.</li>
+<li>Experience with GraphQL, Express, Webpack, Babel, Docker.</li>
+<li>Familiarity with hosting concepts.</li>
+</ul>
+<p><strong>Bonus Points</strong></p>
+<p>The following items are not requirements but would provide a shallower learning curve in this position:</p>
+<ul>
+<li>Experience with web hosting, server infrastructure or server management.</li>
+<li>Experience with payment processing (Stripe), customer support tools (Intercom).</li>
+<li>Experience working in multilingual teams.</li>
+</ul>
+<p><strong>Benefits</strong></p>
+<ul>
+<li>A dynamically growing international company where what you do has a direct and immediate impact.</li>
+<li>We have an amazing design (UI and UX) team so development receives fully researched and designed tasks.This is a fully remote role. The JavaScript Developer Trainer can work from anywhere with reliable broadband internet access.</li>
+<li>Our positions offer a great deal of flexibility, responsibility, and opportunity for growth for the right candidate.</li>
+</ul>
+<p>If you want to learn more about Kinsta and what it's like to work for our team, head to our website, Kinsta.com, and look for the About Us link in the footer.</p>
+",https://kinsta.com/,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbkdFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eaa682970e0218e11b80f8cd04754426bcc58df9/kinsta-logo1.png,43.00595,-123.89259
+292,Lev,NYC,Full Time,,,http://www.levcapital.com,,40.6238889,-73.9788889
+293,Lev,NYC,Full Time,Senior Engineer ,,http://www.levcapital.com,,40.6238889,-73.9788889
+294,Lev,NYC,Full Time,Senior Engineer ,"<p>Lev helps real estate owners and investors get the best financing for their property. We bring together Humans + Technology to provide the best in real estate capital markets advisory to our clients.</p>
+<p>Backed by leaders in commercial real estate and venture capital, including ANIMO Ventures and Ludlow Ventures, we are excited to leverage incredible user experiences, smart technology and beautiful workflows to bring fairness and transparency to this $500+ billion industry.</p>
+<p>We are looking for a passionate problem solver to join our (still small) engineering team.  In this role, you’ll get to wear many hats and be responsible for multiple projects including our proprietary smart lead sourcing and placing system.  You’ll also work directly with our CTO by constantly discussing, architecting, developing new features/products, and making sure they are delivered on time while functioning properly.</p>
+<p>Our current stack consists of Python, Flask, Postgres on the backend, and React.js in the Front-end.</p>
+<p>Roles &amp; Responsibilities:</p>
+<ul>
+<li>Write beautiful Python code that’s focused on scalability, testability, and maintainability.</li>
+<li>Maintain and improve our Flask API which is the backbone of our platform.</li>
+<li>Architect, design, and implement a plethora of features/products we have in the pipeline.</li>
+<li>Collaborate with product, design, marketing, and engineering team on building features and functionality.</li>
+<li>Perform code reviews to your teammates.</li>
+<li>Discuss, implement, and document subjects like Engineering processes, best practices, code quality, testing, continuous integration/deployment, and more.</li>
+</ul>
+",http://www.levcapital.com,,40.6238889,-73.9788889
+295,Lev,NYC,Full Time,Senior Engineer ,"<p>Lev helps real estate owners and investors get the best financing for their property. We bring together Humans + Technology to provide the best in real estate capital markets advisory to our clients.</p>
+<p>Backed by leaders in commercial real estate and venture capital, including ANIMO Ventures and Ludlow Ventures, we are excited to leverage incredible user experiences, smart technology and beautiful workflows to bring fairness and transparency to this $500+ billion industry.</p>
+<p>We are looking for a passionate problem solver to join our (still small) engineering team.  In this role, you’ll get to wear many hats and be responsible for multiple projects including our proprietary smart lead sourcing and placing system.  You’ll also work directly with our CTO by constantly discussing, architecting, developing new features/products, and making sure they are delivered on time while functioning properly.</p>
+<p>Our current stack consists of Python, Flask, Postgres on the backend, and React.js in the Front-end.</p>
+<p>Roles &amp; Responsibilities:</p>
+<ul>
+<li>Write beautiful Python code that’s focused on scalability, testability, and maintainability.</li>
+<li>Maintain and improve our Flask API which is the backbone of our platform.</li>
+<li>Architect, design, and implement a plethora of features/products we have in the pipeline.</li>
+<li>Collaborate with product, design, marketing, and engineering team on building features and functionality.</li>
+<li>Perform code reviews to your teammates.</li>
+<li>Discuss, implement, and document subjects like Engineering processes, best practices, code quality, testing, continuous integration/deployment, and more.</li>
+</ul>
+",http://www.levcapital.com,,40.6238889,-73.9788889
+296,Lev,NYC,Full Time,Senior Engineer ,"<p>Lev helps real estate owners and investors get the best financing for their property. We bring together Humans + Technology to provide the best in real estate capital markets advisory to our clients.</p>
+<p>Backed by leaders in commercial real estate and venture capital, including ANIMO Ventures and Ludlow Ventures, we are excited to leverage incredible user experiences, smart technology and beautiful workflows to bring fairness and transparency to this $500+ billion industry.</p>
+<p>We are looking for a passionate problem solver to join our (still small) engineering team.  In this role, you’ll get to wear many hats and be responsible for multiple projects including our proprietary smart lead sourcing and placing system.  You’ll also work directly with our CTO by constantly discussing, architecting, developing new features/products, and making sure they are delivered on time while functioning properly.</p>
+<p>Our current stack consists of Python, Flask, Postgres on the backend, and React.js in the Front-end.</p>
+<p>Roles &amp; Responsibilities:</p>
+<ul>
+<li>Write beautiful Python code that’s focused on scalability, testability, and maintainability.</li>
+<li>Maintain and improve our Flask API which is the backbone of our platform.</li>
+<li>Architect, design, and implement a plethora of features/products we have in the pipeline.</li>
+<li>Collaborate with product, design, marketing, and engineering team on building features and functionality.</li>
+<li>Perform code reviews to your teammates.</li>
+<li>Discuss, implement, and document subjects like Engineering processes, best practices, code quality, testing, continuous integration/deployment, and more.</li>
+</ul>
+",http://www.levcapital.com,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbWFFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8e72918f03a3dcf6257d7a4daed55b2a075399f8/dark-square-512.png,40.6238889,-73.9788889
+369,Bombas,New York,Full Time,,,https://bombas.com,,40.714269,-74.005973
+370,Bombas,New York,Full Time,Software Engineer,,https://bombas.com,,40.714269,-74.005973
+371,Bombas,New York,Full Time,Software Engineer,"<p><strong>Job Title:</strong> Software Engineer</p>
+<h2>About Bombas:</h2>
+<p>Bombas is a comfort focused apparel brand with a mission to help those in need. The company launched in 2013, after the founders learned that socks are the #1 most requested clothing item at homeless shelters. From there, they set out to solve that problem, donating a pair of socks for every pair they sell. How do you donate a lot of socks? You sell a lot. And how do you sell a lot? You make the most comfortable socks in the history of feet. Millions of pairs sold and donated later, Bombas is continuing to innovate with new socks and apparel while creating a positive impact on the community where we all work and live.</p>
+<p>At Bombas, comfort is heavily rooted in our DNA. While striving to provide comfort for all, we welcome and celebrate minds from all backgrounds regardless of age, color, ethnicity, gender or gender identity, genetics, physical or mental ability, protected veteran status, race, religion and sexual orientation. We highly encourage candidates of all backgrounds to apply. Come as you are and we’ll welcome you to the Hive.</p>
+<h2>About the Job:</h2>
+<p>We are looking for a product-minded and versatile team player to join our Engineering team as our Software Engineer. The ideal candidate has 3-5 years of experience in software engineering.</p>
+<p>This is an opportunity to have direct input into the creation of foundational processes and systems that shape the future of our business. You’ll have the opportunity to work with a wide variety of stakeholders across all departments, and will serve as a key partner to our Creative, Marketing, and Product teams to help launch new product initiatives.</p>
+<h2>What you’ll be responsible for:</h2>
+<ul>
+<li>Refine our stack as we move to an API-first architecture and React.</li>
+<li>Ship DRY and scalable code with a focus on performance optimization and backed by unit tests.</li>
+<li>Work with our Product team to translate business needs into efficient and practical solutions.</li>
+<li>Inform our enterprise architecture and help build, integrate, and maintain a growing array of internal and third-party applications and services.</li>
+</ul>
+<h2>What we’ll love about you:</h2>
+<ul>
+<li>Can balance quality with time to market to show value while building toward a longer term vision.</li>
+<li>You care about testing and automation, and know what it means to ship high quality code.</li>
+<li>Strong strategic problem solving - can clearly understand customer problems and business needs and translate them into innovative solutions.</li>
+<li>Track record of leading the implementation of foundational systems.</li>
+<li>A team player who is willing and happy to help.</li>
+<li>Strong written and verbal communication skills.</li>
+<li>Belief in our mission and understand the importance of giving-back.</li>
+<li>Inquisitive, love to learn, embrace failure, and never give up.</li>
+<li>Comfortable working in an open office environment while staying focused.</li>
+</ul>
+<h2>What you’ll love about us:</h2>
+<ul>
+<li>We are a team of smart, interesting, diverse, funny, and loving people.</li>
+<li>We offer competitive compensation, employer paid health, medical and dental benefits, 401k with match, paid parental leave, snacks, socks and a fun, relaxed office environment.</li>
+<li>We take the responsibility to make sure you are excited, happy, and find fulfillment in your work very seriously.</li>
+<li>We value fun. This is why we host office lunches, offsite team outings, and two annual company retreats.</li>
+<li>We believe in giving back to the community and helping those in need, which is why we volunteer as a team regularly.</li>
+<li>We believe success comes from the collective effort of all, which is why all full-time employees receive equity in the business.</li>
+<li>We offer flexible paid time off for all full-time employees. This includes unlimited vacation, sick days, and wellness days because we understand the value of health, relaxation, spending time with friends and family, and traveling the world.</li>
+<li>We believe a healthy body equals a healthy mind, so we offer a $100 monthly health and wellness reimbursement.</li>
+</ul>
+<h2>What you’ll bring:</h2>
+<ul>
+<li>3-5 years of experience in software engineering.</li>
+<li>Comfortable developing modern Ruby, Go, or JavaScript code.</li>
+<li>Experience architecting and using relational databases.</li>
+<li>Knowledge of both building internal and consuming third-party APIs and have a strong grasp of REST architecture (GraphQL a plus).</li>
+<li>Developed and operated production applications in a Linux environment (AWS a plus).</li>
+<li>Experience with e-commerce is a plus.</li>
+</ul>
+<p>If you require reasonable accommodation in completing this application, interviewing, completing any employment testing, or otherwise participating in this hiring process, please direct your inquiries to our Director of Talent Acquisition at <a href=""mailto:nick.sottile@bombas.com"">nick.sottile@bombas.com</a>.</p>
+",https://bombas.com,,40.714269,-74.005973
+372,Bombas,New York,Full Time,Software Engineer,"<p><strong>Job Title:</strong> Software Engineer</p>
+<h2>About Bombas:</h2>
+<p>Bombas is a comfort focused apparel brand with a mission to help those in need. The company launched in 2013, after the founders learned that socks are the #1 most requested clothing item at homeless shelters. From there, they set out to solve that problem, donating a pair of socks for every pair they sell. How do you donate a lot of socks? You sell a lot. And how do you sell a lot? You make the most comfortable socks in the history of feet. Millions of pairs sold and donated later, Bombas is continuing to innovate with new socks and apparel while creating a positive impact on the community where we all work and live.</p>
+<p>At Bombas, comfort is heavily rooted in our DNA. While striving to provide comfort for all, we welcome and celebrate minds from all backgrounds regardless of age, color, ethnicity, gender or gender identity, genetics, physical or mental ability, protected veteran status, race, religion and sexual orientation. We highly encourage candidates of all backgrounds to apply. Come as you are and we’ll welcome you to the Hive.</p>
+<h2>About the Job:</h2>
+<p>We are looking for a product-minded and versatile team player to join our Engineering team as our Software Engineer. The ideal candidate has 3-5 years of experience in software engineering.</p>
+<p>This is an opportunity to have direct input into the creation of foundational processes and systems that shape the future of our business. You’ll have the opportunity to work with a wide variety of stakeholders across all departments, and will serve as a key partner to our Creative, Marketing, and Product teams to help launch new product initiatives.</p>
+<h2>What you’ll be responsible for:</h2>
+<ul>
+<li>Refine our stack as we move to an API-first architecture and React.</li>
+<li>Ship DRY and scalable code with a focus on performance optimization and backed by unit tests.</li>
+<li>Work with our Product team to translate business needs into efficient and practical solutions.</li>
+<li>Inform our enterprise architecture and help build, integrate, and maintain a growing array of internal and third-party applications and services.</li>
+</ul>
+<h2>What we’ll love about you:</h2>
+<ul>
+<li>Can balance quality with time to market to show value while building toward a longer term vision.</li>
+<li>You care about testing and automation, and know what it means to ship high quality code.</li>
+<li>Strong strategic problem solving - can clearly understand customer problems and business needs and translate them into innovative solutions.</li>
+<li>Track record of leading the implementation of foundational systems.</li>
+<li>A team player who is willing and happy to help.</li>
+<li>Strong written and verbal communication skills.</li>
+<li>Belief in our mission and understand the importance of giving-back.</li>
+<li>Inquisitive, love to learn, embrace failure, and never give up.</li>
+<li>Comfortable working in an open office environment while staying focused.</li>
+</ul>
+<h2>What you’ll love about us:</h2>
+<ul>
+<li>We are a team of smart, interesting, diverse, funny, and loving people.</li>
+<li>We offer competitive compensation, employer paid health, medical and dental benefits, 401k with match, paid parental leave, snacks, socks and a fun, relaxed office environment.</li>
+<li>We take the responsibility to make sure you are excited, happy, and find fulfillment in your work very seriously.</li>
+<li>We value fun. This is why we host office lunches, offsite team outings, and two annual company retreats.</li>
+<li>We believe in giving back to the community and helping those in need, which is why we volunteer as a team regularly.</li>
+<li>We believe success comes from the collective effort of all, which is why all full-time employees receive equity in the business.</li>
+<li>We offer flexible paid time off for all full-time employees. This includes unlimited vacation, sick days, and wellness days because we understand the value of health, relaxation, spending time with friends and family, and traveling the world.</li>
+<li>We believe a healthy body equals a healthy mind, so we offer a $100 monthly health and wellness reimbursement.</li>
+</ul>
+<h2>What you’ll bring:</h2>
+<ul>
+<li>3-5 years of experience in software engineering.</li>
+<li>Comfortable developing modern Ruby, Go, or JavaScript code.</li>
+<li>Experience architecting and using relational databases.</li>
+<li>Knowledge of both building internal and consuming third-party APIs and have a strong grasp of REST architecture (GraphQL a plus).</li>
+<li>Developed and operated production applications in a Linux environment (AWS a plus).</li>
+<li>Experience with e-commerce is a plus.</li>
+</ul>
+<p>If you require reasonable accommodation in completing this application, interviewing, completing any employment testing, or otherwise participating in this hiring process, please direct your inquiries to our Director of Talent Acquisition at <a href=""mailto:nick.sottile@bombas.com"">nick.sottile@bombas.com</a>.</p>
+",https://bombas.com,,40.714269,-74.005973
+373,Bombas,New York,Full Time,Software Engineer,"<p><strong>Job Title:</strong> Software Engineer</p>
+<h2>About Bombas:</h2>
+<p>Bombas is a comfort focused apparel brand with a mission to help those in need. The company launched in 2013, after the founders learned that socks are the #1 most requested clothing item at homeless shelters. From there, they set out to solve that problem, donating a pair of socks for every pair they sell. How do you donate a lot of socks? You sell a lot. And how do you sell a lot? You make the most comfortable socks in the history of feet. Millions of pairs sold and donated later, Bombas is continuing to innovate with new socks and apparel while creating a positive impact on the community where we all work and live.</p>
+<p>At Bombas, comfort is heavily rooted in our DNA. While striving to provide comfort for all, we welcome and celebrate minds from all backgrounds regardless of age, color, ethnicity, gender or gender identity, genetics, physical or mental ability, protected veteran status, race, religion and sexual orientation. We highly encourage candidates of all backgrounds to apply. Come as you are and we’ll welcome you to the Hive.</p>
+<h2>About the Job:</h2>
+<p>We are looking for a product-minded and versatile team player to join our Engineering team as our Software Engineer. The ideal candidate has 3-5 years of experience in software engineering.</p>
+<p>This is an opportunity to have direct input into the creation of foundational processes and systems that shape the future of our business. You’ll have the opportunity to work with a wide variety of stakeholders across all departments, and will serve as a key partner to our Creative, Marketing, and Product teams to help launch new product initiatives.</p>
+<h2>What you’ll be responsible for:</h2>
+<ul>
+<li>Refine our stack as we move to an API-first architecture and React.</li>
+<li>Ship DRY and scalable code with a focus on performance optimization and backed by unit tests.</li>
+<li>Work with our Product team to translate business needs into efficient and practical solutions.</li>
+<li>Inform our enterprise architecture and help build, integrate, and maintain a growing array of internal and third-party applications and services.</li>
+</ul>
+<h2>What we’ll love about you:</h2>
+<ul>
+<li>Can balance quality with time to market to show value while building toward a longer term vision.</li>
+<li>You care about testing and automation, and know what it means to ship high quality code.</li>
+<li>Strong strategic problem solving - can clearly understand customer problems and business needs and translate them into innovative solutions.</li>
+<li>Track record of leading the implementation of foundational systems.</li>
+<li>A team player who is willing and happy to help.</li>
+<li>Strong written and verbal communication skills.</li>
+<li>Belief in our mission and understand the importance of giving-back.</li>
+<li>Inquisitive, love to learn, embrace failure, and never give up.</li>
+<li>Comfortable working in an open office environment while staying focused.</li>
+</ul>
+<h2>What you’ll love about us:</h2>
+<ul>
+<li>We are a team of smart, interesting, diverse, funny, and loving people.</li>
+<li>We offer competitive compensation, employer paid health, medical and dental benefits, 401k with match, paid parental leave, snacks, socks and a fun, relaxed office environment.</li>
+<li>We take the responsibility to make sure you are excited, happy, and find fulfillment in your work very seriously.</li>
+<li>We value fun. This is why we host office lunches, offsite team outings, and two annual company retreats.</li>
+<li>We believe in giving back to the community and helping those in need, which is why we volunteer as a team regularly.</li>
+<li>We believe success comes from the collective effort of all, which is why all full-time employees receive equity in the business.</li>
+<li>We offer flexible paid time off for all full-time employees. This includes unlimited vacation, sick days, and wellness days because we understand the value of health, relaxation, spending time with friends and family, and traveling the world.</li>
+<li>We believe a healthy body equals a healthy mind, so we offer a $100 monthly health and wellness reimbursement.</li>
+</ul>
+<h2>What you’ll bring:</h2>
+<ul>
+<li>3-5 years of experience in software engineering.</li>
+<li>Comfortable developing modern Ruby, Go, or JavaScript code.</li>
+<li>Experience architecting and using relational databases.</li>
+<li>Knowledge of both building internal and consuming third-party APIs and have a strong grasp of REST architecture (GraphQL a plus).</li>
+<li>Developed and operated production applications in a Linux environment (AWS a plus).</li>
+<li>Experience with e-commerce is a plus.</li>
+</ul>
+<p>If you require reasonable accommodation in completing this application, interviewing, completing any employment testing, or otherwise participating in this hiring process, please direct your inquiries to our Director of Talent Acquisition at <a href=""mailto:nick.sottile@bombas.com"">nick.sottile@bombas.com</a>.</p>
+",https://bombas.com,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHVFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--08a734b049e204ebb052329bcbb5e869563620f2/bombas-logo.png,40.714269,-74.005973
+413,BUNKR Life,"Saint Petersburg, FL",Full Time,,,https://bunkr.life/,,28.290973,-82.169668
+414,BUNKR Life,"Saint Petersburg, FL",Full Time,Lead Product Developer,,https://bunkr.life/,,28.290973,-82.169668
+415,BUNKR Life,"Saint Petersburg, FL",Full Time,Lead Product Developer,"<p>Lead Product Developer
+We are hiring a senior software developer for BUNKR Life (BUNKR). BUNKR is a purpose-driven, entrepreneurial company owned and operated by a leadership team with a proven track record of building profitable global software businesses which generate great value for customers, team members, community and shareholders. Information on BUNKR's co-founder and CEO can be found at the following link - <a href=""https://www.linkedin.com/in/kurt-long-8223211/"">https://www.linkedin.com/in/kurt-long-8223211/</a></p>
+<p>BUNKR's vision is to empower households and businesses to protect the most important information in their lives while streamlining everyday activities. We believe by doing this, people will be able to spend more time on what matters most to them in life. BUNKR is the first company of its kind to envision fully protecting and empowering consumers in their lives. Remote candidates will be strongly considered.</p>
+<p>Below is a description of our ideal candidate for our lead software development position:</p>
+<ul>
+<li>Demonstrated ability to listen, understand business needs and lead a team toward market-fit products</li>
+<li>Outstanding communication skills with demonstrated ability to unify a team toward a common vision</li>
+<li>Demonstrated interests outside of their career</li>
+<li>Demonstrated ability in a rapid Agile software build environment</li>
+<li>Comprehensive experience in use of Web APIs</li>
+<li>Development of APIs, API First experience</li>
+<li>Node.js development experience</li>
+<li>UX / UI understanding</li>
+<li>OAuth 2.0</li>
+<li>Experience with Git, GitHub</li>
+<li>Strong understanding of QA processes and QA automation</li>
+<li>Experience with open source database such as MySQL</li>
+<li>PostgreSQL experience preferred</li>
+<li>Heroku experience a plus</li>
+</ul>
+<p>BUNKR offers highly competitive financial compensation, stability, benefits as well as the ability to grow as a professional and person. We provide additional rewards those who are proven leaders.</p>
+",https://bunkr.life/,,28.290973,-82.169668
+416,BUNKR Life,"Saint Petersburg, FL",Full Time,Lead Product Developer,"<p>Lead Product Developer
+We are hiring a senior software developer for BUNKR Life (BUNKR). BUNKR is a purpose-driven, entrepreneurial company owned and operated by a leadership team with a proven track record of building profitable global software businesses which generate great value for customers, team members, community and shareholders. Information on BUNKR's co-founder and CEO can be found at the following link - <a href=""https://www.linkedin.com/in/kurt-long-8223211/"">https://www.linkedin.com/in/kurt-long-8223211/</a></p>
+<p>BUNKR's vision is to empower households and businesses to protect the most important information in their lives while streamlining everyday activities. We believe by doing this, people will be able to spend more time on what matters most to them in life. BUNKR is the first company of its kind to envision fully protecting and empowering consumers in their lives. Remote candidates will be strongly considered.</p>
+<p>Below is a description of our ideal candidate for our lead software development position:</p>
+<ul>
+<li>Demonstrated ability to listen, understand business needs and lead a team toward market-fit products</li>
+<li>Outstanding communication skills with demonstrated ability to unify a team toward a common vision</li>
+<li>Demonstrated interests outside of their career</li>
+<li>Demonstrated ability in a rapid Agile software build environment</li>
+<li>Comprehensive experience in use of Web APIs</li>
+<li>Development of APIs, API First experience</li>
+<li>Node.js development experience</li>
+<li>UX / UI understanding</li>
+<li>OAuth 2.0</li>
+<li>Experience with Git, GitHub</li>
+<li>Strong understanding of QA processes and QA automation</li>
+<li>Experience with open source database such as MySQL</li>
+<li>PostgreSQL experience preferred</li>
+<li>Heroku experience a plus</li>
+</ul>
+<p>BUNKR offers highly competitive financial compensation, stability, benefits as well as the ability to grow as a professional and person. We provide additional rewards those who are proven leaders.</p>
+",https://bunkr.life/,,28.290973,-82.169668
+417,BUNKR Life,"Saint Petersburg, FL",Full Time,Lead Product Developer,"<p>Lead Product Developer
+We are hiring a senior software developer for BUNKR Life (BUNKR). BUNKR is a purpose-driven, entrepreneurial company owned and operated by a leadership team with a proven track record of building profitable global software businesses which generate great value for customers, team members, community and shareholders. Information on BUNKR's co-founder and CEO can be found at the following link - <a href=""https://www.linkedin.com/in/kurt-long-8223211/"">https://www.linkedin.com/in/kurt-long-8223211/</a></p>
+<p>BUNKR's vision is to empower households and businesses to protect the most important information in their lives while streamlining everyday activities. We believe by doing this, people will be able to spend more time on what matters most to them in life. BUNKR is the first company of its kind to envision fully protecting and empowering consumers in their lives. Remote candidates will be strongly considered.</p>
+<p>Below is a description of our ideal candidate for our lead software development position:</p>
+<ul>
+<li>Demonstrated ability to listen, understand business needs and lead a team toward market-fit products</li>
+<li>Outstanding communication skills with demonstrated ability to unify a team toward a common vision</li>
+<li>Demonstrated interests outside of their career</li>
+<li>Demonstrated ability in a rapid Agile software build environment</li>
+<li>Comprehensive experience in use of Web APIs</li>
+<li>Development of APIs, API First experience</li>
+<li>Node.js development experience</li>
+<li>UX / UI understanding</li>
+<li>OAuth 2.0</li>
+<li>Experience with Git, GitHub</li>
+<li>Strong understanding of QA processes and QA automation</li>
+<li>Experience with open source database such as MySQL</li>
+<li>PostgreSQL experience preferred</li>
+<li>Heroku experience a plus</li>
+</ul>
+<p>BUNKR offers highly competitive financial compensation, stability, benefits as well as the ability to grow as a professional and person. We provide additional rewards those who are proven leaders.</p>
+",https://bunkr.life/,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1dFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2d7738c164d4ebbf8e49a4425837ed20638f2051/Screen%20Shot%202020-05-29%20at%204.56.54%20PM.png,28.290973,-82.169668
+468,Canopy,U.S. Remote,Full Time,,,https://canopyservicing.com/,,43.00595,-123.89259
+469,Canopy,U.S. Remote,Full Time,Senior Software Engineer (Innovation),,https://canopyservicing.com/,,41.9891608,-87.8830013
+470,Canopy,U.S. Remote,Full Time,Senior Software Engineer (Innovation),"<p>Canopy is looking for an innovation focused software engineer to help rapidly build and test core company theories. Canopy's Innovation team is a group of highly skilled engineers, designers, and hustlers who are working as scouts for Canopy to help gather and present evidence on our future paths we can take. They often work with little to no spec's and have the highest initiative in the company.</p>
+<p>You are someone who can take a rough set of company goals and do both a competitive analysis on potential options and build a prototype that will empower Canopy to determine the cost of fully moving in a new direction.</p>
+<p>You will need a high amount of initiative and exposure to each part of the development, project management, and even product process to skillfully accomplish your goals.</p>
+<p>For additional context we might ask you to spend 2 weeks researching and building a prototype of an integration of a new Canopy partner, or to spend a week researching and building a prototype for a new compliance based need.</p>
+<p>Our goal is to work with you to provide an ordered list of challenges that we need solved, and for you to work autonomously to accomplish those goals.</p>
+<p>It would be ideal if you were to use similar tooling as our core products but it is not required.</p>
+<p>It is expected that you will need to engage with various members of Canopy to accomplish your goal. ie there are other specialists at Canopy both in engineer and across the board who can help you.</p>
+",https://canopyservicing.com/,,43.00595,-123.89259
+471,Canopy,U.S. Remote,Full Time,Senior Software Engineer (Innovation),"<p>Canopy is looking for an innovation focused software engineer to help rapidly build and test core company theories. Canopy's Innovation team is a group of highly skilled engineers, designers, and hustlers who are working as scouts for Canopy to help gather and present evidence on our future paths we can take. They often work with little to no spec's and have the highest initiative in the company.</p>
+<p>You are someone who can take a rough set of company goals and do both a competitive analysis on potential options and build a prototype that will empower Canopy to determine the cost of fully moving in a new direction.</p>
+<p>You will need a high amount of initiative and exposure to each part of the development, project management, and even product process to skillfully accomplish your goals.</p>
+<p>For additional context we might ask you to spend 2 weeks researching and building a prototype of an integration of a new Canopy partner, or to spend a week researching and building a prototype for a new compliance based need.</p>
+<p>Our goal is to work with you to provide an ordered list of challenges that we need solved, and for you to work autonomously to accomplish those goals.</p>
+<p>It would be ideal if you were to use similar tooling as our core products but it is not required.</p>
+<p>It is expected that you will need to engage with various members of Canopy to accomplish your goal. ie there are other specialists at Canopy both in engineer and across the board who can help you.</p>
+",https://canopyservicing.com/,,41.9891608,-87.8830013
+472,Canopy,U.S. Remote,Full Time,Senior Software Engineer (Innovation),"<p>Canopy is looking for an innovation focused software engineer to help rapidly build and test core company theories. Canopy's Innovation team is a group of highly skilled engineers, designers, and hustlers who are working as scouts for Canopy to help gather and present evidence on our future paths we can take. They often work with little to no spec's and have the highest initiative in the company.</p>
+<p>You are someone who can take a rough set of company goals and do both a competitive analysis on potential options and build a prototype that will empower Canopy to determine the cost of fully moving in a new direction.</p>
+<p>You will need a high amount of initiative and exposure to each part of the development, project management, and even product process to skillfully accomplish your goals.</p>
+<p>For additional context we might ask you to spend 2 weeks researching and building a prototype of an integration of a new Canopy partner, or to spend a week researching and building a prototype for a new compliance based need.</p>
+<p>Our goal is to work with you to provide an ordered list of challenges that we need solved, and for you to work autonomously to accomplish those goals.</p>
+<p>It would be ideal if you were to use similar tooling as our core products but it is not required.</p>
+<p>It is expected that you will need to engage with various members of Canopy to accomplish your goal. ie there are other specialists at Canopy both in engineer and across the board who can help you.</p>
+",https://canopyservicing.com/,https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBam1FIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a3232a3dda7dfe6330cff6eea619a65d2251260b/Screen%20Shot%202020-05-28%20at%209.07.46%20PM.png,43.00595,-123.89259
+477,Wicked Co.,,Full Time,,,,,25.9174563,-80.1387522
+478,Wicked Co.,,Full Time,,,https://www.linkedin.com/company/letsgetwicked,,25.9174563,-80.1387522
+479,Wicked Co.,"Lancaster, PA",Full Time,,,https://www.linkedin.com/company/letsgetwicked,,39.970887,-76.304383
+480,Wicked Co.,"Lancaster, PA",Full Time,Senior Software Developer - Computer Vision,,https://www.linkedin.com/company/letsgetwicked,,39.970887,-76.304383
+481,Wicked Co.,"Lancaster, PA",Full Time,Senior Software Developer - Computer Vision,"<p>Wicked Co. is a new company that is composed of a collective of passionate marketers, engineers, and entrepreneurs who work with our portfolio of companies to bring their ideas to life and drive unreal growth. We work across multiple industries, pairing quality equipment with pivotal software enhancements to create best-in-class, customer-centric solutions. While we’re at it, we also give their marketing, sales, and business practices a serious makeover (and boy do we love a good makeover montage).</p>
+<p>We have experience running our own successful startups, and we’ve brought over those lessons and values to the culture at Wicked. We know our stuff but we're still agile and ever-learning, empowering you to make a true impact at Wicked Co. and our portfolio companies.</p>
+<p>We’re a family-owned business that values respect, honesty and our team. We want our employees to be passionate about their work, but we recognize you’re more than just your job. Wicked Co. appreciates our people and the unique personality and perspective each individual brings to our team.</p>
+<p>We’re currently looking for a Senior Software Developer with experience in computer vision who actively embraces challenges, experiments without fear of failure, and puts the customer first. Sound like you? Take a look at some of our other qualifications below:</p>
+<p>Experience in any of the following computer vision areas is beneficial:
+Application of standard libraries for image processing (OpenCV, etc.)
+Development of custom image processing algorithms
+Object tracking
+Object recognition
+Testing of computer vision algorithms
+3-D modeling of physical spaces and objects</p>
+<p>General software development areas that are beneficial:
+Experience writing and supporting production code
+Revision control tools (we use Git)
+Testing and verification
+Deployment
+Development methodologies
+Build tools (CMake, make, ...)</p>
+<p>Languages we commonly use:
+C/C++
+Python
+Go
+Bash shell</p>
+<p>As a Senior Member of the team, you will be expected to:
+Develop stable, reliable software systems based on provided software specifications
+Actively participate in software development planning and design discussions
+Participate in project planning and review sessions on projects for which you are a Project Owner or Team Captain
+Provide technical guidance to junior members of the team and give constructive feedback during code review sessions</p>
+<p>You will work with experienced developers who have built, shipped and supported software systems over multi-year life cycles.</p>
+<p>We have some really exciting products in the pipeline where your work will make a big impact.</p>
+",https://www.linkedin.com/company/letsgetwicked,,39.970887,-76.304383
+482,Wicked Co.,"Lancaster, PA",Full Time,Senior Software Developer - Computer Vision,"<p>Wicked Co. is a new company that is composed of a collective of passionate marketers, engineers, and entrepreneurs who work with our portfolio of companies to bring their ideas to life and drive unreal growth. We work across multiple industries, pairing quality equipment with pivotal software enhancements to create best-in-class, customer-centric solutions. While we’re at it, we also give their marketing, sales, and business practices a serious makeover (and boy do we love a good makeover montage).</p>
+<p>We have experience running our own successful startups, and we’ve brought over those lessons and values to the culture at Wicked. We know our stuff but we're still agile and ever-learning, empowering you to make a true impact at Wicked Co. and our portfolio companies.</p>
+<p>We’re a family-owned business that values respect, honesty and our team. We want our employees to be passionate about their work, but we recognize you’re more than just your job. Wicked Co. appreciates our people and the unique personality and perspective each individual brings to our team.</p>
+<p>We’re currently looking for a Senior Software Developer with experience in computer vision who actively embraces challenges, experiments without fear of failure, and puts the customer first. Sound like you? Take a look at some of our other qualifications below:</p>
+<p>Experience in any of the following computer vision areas is beneficial:
+Application of standard libraries for image processing (OpenCV, etc.)
+Development of custom image processing algorithms
+Object tracking
+Object recognition
+Testing of computer vision algorithms
+3-D modeling of physical spaces and objects</p>
+<p>General software development areas that are beneficial:
+Experience writing and supporting production code
+Revision control tools (we use Git)
+Testing and verification
+Deployment
+Development methodologies
+Build tools (CMake, make, ...)</p>
+<p>Languages we commonly use:
+C/C++
+Python
+Go
+Bash shell</p>
+<p>As a Senior Member of the team, you will be expected to:
+Develop stable, reliable software systems based on provided software specifications
+Actively participate in software development planning and design discussions
+Participate in project planning and review sessions on projects for which you are a Project Owner or Team Captain
+Provide technical guidance to junior members of the team and give constructive feedback during code review sessions</p>
+<p>You will work with experienced developers who have built, shipped and supported software systems over multi-year life cycles.</p>
+<p>We have some really exciting products in the pipeline where your work will make a big impact.</p>
+",https://www.linkedin.com/company/letsgetwicked,,39.970887,-76.304383
+483,Wicked Co.,"Lancaster, PA",Full Time,Senior Software Developer - Computer Vision,"<p>Wicked Co. is a new company that is composed of a collective of passionate marketers, engineers, and entrepreneurs who work with our portfolio of companies to bring their ideas to life and drive unreal growth. We work across multiple industries, pairing quality equipment with pivotal software enhancements to create best-in-class, customer-centric solutions. While we’re at it, we also give their marketing, sales, and business practices a serious makeover (and boy do we love a good makeover montage).</p>
+<p>We have experience running our own successful startups, and we’ve brought over those lessons and values to the culture at Wicked. We know our stuff but we're still agile and ever-learning, empowering you to make a true impact at Wicked Co. and our portfolio companies.</p>
+<p>We’re a family-owned business that values respect, honesty and our team. We want our employees to be passionate about their work, but we recognize you’re more than just your job. Wicked Co. appreciates our people and the unique personality and perspective each individual brings to our team.</p>
+<p>We’re currently looking for a Senior Software Developer with experience in computer vision who actively embraces challenges, experiments without fear of failure, and puts the customer first. Sound like you? Take a look at some of our other qualifications below:</p>
+<p>Experience in any of the following computer vision areas is beneficial:
+Application of standard libraries for image processing (OpenCV, etc.)
+Development of custom image processing algorithms
+Object tracking
+Object recognition
+Testing of computer vision algorithms
+3-D modeling of physical spaces and objects</p>
+<p>General software development areas that are beneficial:
+Experience writing and supporting production code
+Revision control tools (we use Git)
+Testing and verification
+Deployment
+Development methodologies
+Build tools (CMake, make, ...)</p>
+<p>Languages we commonly use:
+C/C++
+Python
+Go
+Bash shell</p>
+<p>As a Senior Member of the team, you will be expected to:
+Develop stable, reliable software systems based on provided software specifications
+Actively participate in software development planning and design discussions
+Participate in project planning and review sessions on projects for which you are a Project Owner or Team Captain
+Provide technical guidance to junior members of the team and give constructive feedback during code review sessions</p>
+<p>You will work with experienced developers who have built, shipped and supported software systems over multi-year life cycles.</p>
+<p>We have some really exciting products in the pipeline where your work will make a big impact.</p>
+",https://www.linkedin.com/company/letsgetwicked,,39.970887,-76.304383
+488,GOhiring,,Full Time,,,,,40.2220692,-79.76293
+489,GOhiring,,Full Time,,,https://www.gohiring.com/,,40.2220692,-79.76293
