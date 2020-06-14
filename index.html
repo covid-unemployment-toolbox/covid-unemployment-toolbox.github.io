@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
+    
+
+  <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' /> -->
+
     <title>Searchable Map Template - CSV</title>
 
     <meta charset='utf-8'>
@@ -60,6 +65,55 @@
     <script src="js/searchable_map_lib.js"></script>
     <script src="js/analytics_lib.js"></script>
 
+    <script>
+      var apikey = 'e6cdbf647b42473a82025fe1c6dbf63f';
+      var latitude = '51.0';
+      var longitude = '7.0';
+      var address = 'hjjk';
+    
+      var api_url = 'https://api.opencagedata.com/geocode/v1/json'
+    
+      var request_url = api_url
+        + '?'
+        + 'key=' + apikey
+        + '&q=' + encodeURIComponent(address)
+        + '&pretty=1'
+        + '&no_annotations=1';
+    
+      // see full list of required and optional parameters:
+      // https://opencagedata.com/api#forward
+    
+      var request = new XMLHttpRequest();
+      request.open('GET', request_url, true);
+    
+      request.onload = function() {
+        // see full list of possible response codes:
+        // https://opencagedata.com/api#codes
+    
+        if (request.status == 200){ 
+          // Success!
+          var data = JSON.parse(request.responseText);
+          alert(data.results[0].formatted);
+    
+        } else if (request.status <= 500){ 
+          // We reached our target server, but it returned an error
+                               
+          console.log("unable to geocode! Response code: " + request.status);
+          var data = JSON.parse(request.responseText);
+          console.log(data.status.message);
+        } else {
+          console.log("server error");
+        }
+      };
+    
+      request.onerror = function() {
+        // There was a connection error of some sort
+        console.log("unable to connect to server");        
+      };
+    
+      request.send();  // make the request
+                                 
+    </script>
     <!-- Added for COVID-19 Application -->
     <link rel="stylesheet" href="css/covid.css"/>
     <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" /> -->
@@ -70,8 +124,27 @@
       <img src="img/header.jpg" alt="header" style="width:100%;">
       <div class="centered">
         <h1 class="header-text">COVID Unemployment Toolbox</h1>
+
+<!-- 
+    <nav class="navbar navbar-expand-md navbar-light mb-2">
+      <a class="navbar-brand" href="/">
+        Searchable Map Template - CSV
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse mr-auto" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class='nav-item'>
+            <a class="nav-link active" href="/"><i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>
+          </li>
+          <li class='nav-item'>
+            <a class="nav-link" href="/about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </div> -->
     <!-- <div>
       <img class="header" src="img/header.jpg" alt="Logo">
     </div> -->
