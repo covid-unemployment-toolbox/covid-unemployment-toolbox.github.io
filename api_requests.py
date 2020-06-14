@@ -2,6 +2,13 @@ import requests
 from opencage.geocoder import OpenCageGeocode
 import pandas as pd
 # from pprint import pprint
+app = flask.Flask(__name__)
+# @app.route('/',methods=['GET', 'POST', 'PUT'])
+# def pass_val():
+#     # search_address = request.args.get('search_address')
+#     # print('search_address', search_address)
+#     print("hello")
+#     return jsonify({'reply':'success'})
 
 # for i in range(0, 5):
 # api-endpoint
