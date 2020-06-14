@@ -118,6 +118,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
     <link rel="stylesheet" href="css/covid.css"/>
     <script src="js/animation.js"></script>
+    <script type="text/javascript" src="js/mapdata.js"></script>		
+    <script  type="text/javascript" src="js/usmap.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" /> -->
 
   </head>
@@ -126,17 +128,29 @@
       <img src="img/header.jpg" alt="header" style="width:100%;">
       <div class="centered">
         <h1 class="header-text">COVID <br>Unemployment <br>Toolbox</h1>
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#main-content">
-        <div class="mouse_scroll">
-          <div class="mouse">
-            <div class="wheel"></div>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#job-searcher">
+          <div class="mouse_scroll left-arrow">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
           </div>
-          <div>
-            <span class="m_scroll_arrows unu"></span>
-            <span class="m_scroll_arrows doi"></span>
-            <span class="m_scroll_arrows trei"></span>
+        </a>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#resource-finder">
+          <div class="mouse_scroll right-arrow">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
           </div>
-        </div>
         </a>
       </div>
       </div>  
@@ -144,7 +158,7 @@
 
     <main role="main" class="container-fluid">
       <div class="col-md-12">
-        <a id="main-content"></a>
+        <a id="job-searcher"></a>
         <div class="card bg-light">
           <div class="card-body">
             <div class='row'>
@@ -242,10 +256,10 @@
           </div>
         </div>
       <div class='row'>
-          <div class="col-md-3">
+          <div class="col-md-4">
             About this job:
           </div>
-          <div class='col-md-6'>
+          <div class='col-md-8'>
             <div id='mapCanvas' style="display: block; height: 1000px;"></div>
             <div id="listCanvas" style="display: none">
               <h2 class='list-header hidden-xs'>Search results <small id='list-result-count'></small></h2>
@@ -257,7 +271,7 @@
                       <th scope="col">Location</th>
                       <th scope="col">Address</th>
                       <th scope="col">Phone</th>
-                      <th scope="col">Hours</th>
+                      <th scope="col">URL</th>
                     </tr>
                   </thead>
                   <tbody id='results-list'></tbody>
@@ -265,7 +279,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+        </div>
+        <a id="resource-finder"></a>
+        <div class='row interactive-map'>
+          <div class='col-md-8'>
+            <div id="map"></div>
+          </div>
+          <div class="col-md-4">
             Unemployment resources in your area:
           </div>
         </div>
@@ -292,14 +312,58 @@
 
     </main>
 
-    <!-- <div class="range-slider"><span>Min.
-      <input type="number" value="25000" min="0" max="120000">	Max.
-      <input type="number" value="50000" min="0" max="120000"></span>
-      <input value="25000" min="0" max="120000" step="500" type="range"/>
-      <input value="50000" min="0" max="120000" step="500" type="range"/>
-      <svg width="100%" height="24">
-        <line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="12" stroke-dasharray="1 28"></line>
-      </svg>
-    </div> -->
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
