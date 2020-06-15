@@ -76,48 +76,47 @@
 
   </head>
   <body>
-    <div class="container-background">
-      <img src="img/header.jpg" alt="header" style="width:100%;">
-      <div class="centered">
-        <h1 class="header-text">COVID <br>Unemployment <br>Toolbox</h1>
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#job-searcher">
-          <div class="mouse_scroll left-arrow">
-            <div class="mouse">
-              <div class="wheel"></div>
+      <div class="container-background">
+        <img src="img/header.jpg" alt="header" style="width:100%;">
+        <div class="centered">
+          <h1 class="header-text">COVID <br>Unemployment <br>Toolbox</h1>
+          <a class="ct-btn-scroll ct-js-btn-scroll" href="#job-searcher">
+            <div class="mouse_scroll left-arrow">
+              <div class="mouse">
+                <div class="wheel"></div>
+              </div>
+              <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+              </div>
             </div>
-            <div>
-              <span class="m_scroll_arrows unu"></span>
-              <span class="m_scroll_arrows doi"></span>
-              <span class="m_scroll_arrows trei"></span>
+          </a>
+          <!--<h2 class="header-text-small">Job Hunting</h2>  -->
+          <a class="ct-btn-scroll ct-js-btn-scroll" href="#resource-finder">
+            <div class="mouse_scroll right-arrow">
+              <div class="mouse">
+                <div class="wheel"></div>
+              </div>
+              <div>
+                <span class="m_scroll_arrows unu"></span>
+                <span class="m_scroll_arrows doi"></span>
+                <span class="m_scroll_arrows trei"></span>
+              </div>
             </div>
+          </a>
+        </div>  
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="header-text-small left-text">Job Hunting</h2>
           </div>
-        </a>
-        <!-- <h2 class="header-text-small">Job Hunting</h2> -->
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#resource-finder">
-          <div class="mouse_scroll right-arrow">
-            <div class="mouse">
-              <div class="wheel"></div>
-            </div>
-            <div>
-              <span class="m_scroll_arrows unu"></span>
-              <span class="m_scroll_arrows doi"></span>
-              <span class="m_scroll_arrows trei"></span>
-            </div>
+          <div class="col-md-6">
+            <h2 class="header-text-small right-text">Other Resources</h2>
           </div>
-        </a>
-      </div>  
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="header-text-small left-text">Job Hunting</h2>
         </div>
-        <div class="col-md-6">
-          <h2 class="header-text-small right-text">Other Resources</h2>
-        </div>
-      </div>
-    </div>
-
+      </div> 
     <main role="main" class="container-fluid">
-      <div class="col-md-12">
+      <div class="col-md-12 row-padding" >
         <a id="job-searcher"></a>
         <div class="card bg-light">
           <div class="card-body">
@@ -208,15 +207,15 @@
               </div>
             </div>
 
-            <button class='btn btn-primary' id="btnSearch"><i class='fa fa-search'></i> Search</button>
+            <a class="ct-btn-scroll-2 ct-js-btn-scroll" href="#map-results">
+              <button class='btn btn-primary' id="btnSearch"><i class='fa fa-search'></i> Search</button>
             <a href="/" class='btn btn-secondary' id="btnReset" title="Reset"><i class="fa fa-repeat" aria-hidden="true"></i> Reset</a>
             <button class='btn btn-dark' id='btnViewMode' title='Change view'><i class='fa fa-list'></i> List view</button>
-
             </div>
+            <a id="map-results"></a>
           </div>
         </div>
-
-      <div class='row'>
+      <div class='row row-padding'>
           <div class="col-md-4">
             <div id="side-panel"></div>
           </div>
