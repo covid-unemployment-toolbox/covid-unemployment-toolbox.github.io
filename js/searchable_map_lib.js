@@ -298,7 +298,7 @@ var SearchableMapLib = {
               address = abbreviationToState[key];
             }
             if (key in stateToAbbreviation) {
-              addresss = key;
+              address = key;
             }
           }
           console.log("Address is " + address);
