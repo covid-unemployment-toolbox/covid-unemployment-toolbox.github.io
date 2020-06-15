@@ -251,12 +251,13 @@
             <p id="State"></p>
             <p id="Description"></p>
             <p id="Type"></p>
-            <p id="demo"></p>
+            
             <div class="dropdown" >
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Unemployment resources in your area:
-                
+              <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                Unemployment resources in your area: 
+                <p id="demo"></p>
                 <script type="text/javascript"> 
+
                   var obj = [
                     {
                       "State": "Alaska",
@@ -1713,37 +1714,104 @@
                   ];
                 var countKey = Object.keys(obj).length;
                   simplemaps_usmap.hooks.click_state = function(id){
-                    var text  = simplemaps_usmap_mapdata.state_specific[id].name + " Resources" +"<br />" +  "<br />";
+                    var state = simplemaps_usmap_mapdata.state_specific[id].name;
+                    var text  = "<br />" +simplemaps_usmap_mapdata.state_specific[id].name + " Resources" +"<br />" +  "<br />";
                     // console.log(simplemaps_usmap_mapdata.state_specific[id].name);
                     var i;
                     for (i = 0; i < countKey; i++) {
                       if (simplemaps_usmap_mapdata.state_specific[id].name == obj[i].State) {
-                       text += "Type: " + obj[i].Type +"<br />" +  "Description: " + obj[i].Description + "<br />"  ;
+                       text += "<br />" + "Type: " + obj[i].Type +"<br />" +  "Description: " + obj[i].Description + "<br />"  ;
                        if (obj[i].URL != "") {
                          text += "URL: ";
                         var link_text = obj[i].URL;
                         var neww = link_text.link(obj[i].URL);
-                        text += neww + "<br />"  + "<br />";
+                        text += neww + "<br />";
                        } else {
-                        text += "<br />"  + "<br />";
+                        text +=  "<br />";
                        }
                        
                       }
                     }
                     document.getElementById("demo").innerHTML = text;
+                    
                     // alert(simplemaps_usmap_mapdata.state_specific[id].name);
                   }
 
                </script>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <!-- </button> -->
+              <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#"  onchange="displayResources()">Insurance</a>
                 <a class="dropdown-item" href="#">Funds</a>
                 <a class="dropdown-item" href="#">Grants</a>
                 <a class="dropdown-item" href="#">Organization</a>
-              </div>
+              </div> -->
             </div>
+
+            <!-- <p> 
+              Select one from the given options: 
+              <select id="select1"> 
+                  <option value="UI Claim Online">UI Claim Online</option> 
+                  <option value="basic">Basic</option> 
+                  <option value="premium">Premium</option> 
+              </select> 
+          </p> 
+            
+          <p> 
+              The value of the option selected is: 
+              <span class="output"></span> 
+          </p> 
+            
+          <button onclick="getOption()"> 
+              Check option 
+          </button> 
+            
+          <script type="text/javascript"> 
+              function getOption() { 
+                  selectElement =  
+                          document.querySelector('#select1'); 
+                            
+                  output = selectElement.value; 
+        
+                  document.querySelector('.output').textContent = output; 
+                          // document.getElementById("State").innerHTML = obj[0].State;
+                          var new_text = "";
+                          // document.getElementById("demo").innerHTML = new_text;
+
+                          // new_text  = "<br />" +state + " Resources" +"<br />" +  "<br />";
+                    // console.log(simplemaps_usmap_mapdata.state_specific[id].name);
+                          // document.getElementById("demo").innerHTML = new_text;
+                   
+                          for (i = 0; i < countKey; i++) {
+                            document.getElementById("demo").innerHTML = new_text;
+                            if ("California" == obj[i].State && output == obj[i].Type ) {
+
+                              document.getElementById("State").innerHTML = obj[0].State;
+                            new_text += "<br />" + "Type: " + obj[i].Type +"<br />" +  "Description: " + obj[i].Description + "<br />"  ;
+                            if (obj[i].URL != "") {
+                              new_text += "URL: ";
+                              var link_text = obj[i].URL;
+                              var neww = link_text.link(obj[i].URL);
+                              new_text += neww + "<br />"  + "<br />";
+                            } else {
+                              new_text += "<br />"  + "<br />";
+                            }
+                            
+                            }
+                          }
+                          document.getElementById("demo").innerHTML = new_text;
+                          document.getElementById("demo").innerHTML = "hello";
+              } 
+
+              //simplemaps_usmap.hooks.click_state = function(id){
+                    
+                    // alert(simplemaps_usmap_mapdata.state_specific[id].name);
+                  //}
+
+          </script>  -->
           </div>
+          
+          
+          
         </div>
 
         <script type="text/javascript" src="js/map.js"></script>
