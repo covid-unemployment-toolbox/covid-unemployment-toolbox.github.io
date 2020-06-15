@@ -14,6 +14,26 @@
     text-shadow: 2px 2px 2px black;
 }
 
+.header-text-small { 
+  font-family: "Indie Flower";
+  font-size: 35px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 41.4px; 
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: -265px;
+}
+
+.left-text {
+  margin-left: 430px;
+}
+
+.right-text {
+  margin-right: 400px;
+}
+
 .sub-header { 
   /* TODO: find a good font here*/
 }
