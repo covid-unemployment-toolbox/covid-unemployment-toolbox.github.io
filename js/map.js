@@ -8,7 +8,7 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/job_search_info_final.csv',
+    filePath: 'data/MOCK_DATA.csv',
     fileType: 'csv',
     recordName: 'job location',
     recordNamePlural: 'jobs',
@@ -55,7 +55,7 @@ $(function() {
     }
   });
 
-  $("#search-address, #search-name").keydown(function(e){
+  $("#search-address, #search-title").keydown(function(e){
       var key =  e.keyCode ? e.keyCode : e.which;
       if(key == 13) {
           $('#btnSearch').click();
