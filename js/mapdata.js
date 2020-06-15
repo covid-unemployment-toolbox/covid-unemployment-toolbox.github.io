@@ -14,7 +14,7 @@ var simplemaps_usmap_mapdata={
     state_description: "Learn about the resources available in your state.",
     state_color: "#77bcff",
     state_hover_color: "#038EEB",
-    state_url: "http://simplemaps.com",
+    // state_url: "http://simplemaps.com",
     all_states_inactive: "no",
     
     //Location defaults
@@ -23,18 +23,17 @@ var simplemaps_usmap_mapdata={
     location_pulse: "yes",
     location_pulse_size: "3",
     location_opacity: ".8",
-    location_url: "http://simplemaps.com",
-    all_states_zoomable: "yes",
+    // location_url: "http://simplemaps.com",
+    // all_states_zoomable: "yes",
     location_size: "40",
     location_type: "marker",
     all_locations_inactive: "no",
-    url_new_tab: "yes",
+    // url_new_tab: "yes",
     auto_load: "yes",
    
     //Zoom settings
-    zoom: "yes",
-    initial_zoom: "-1",
-    initial_zoom_solo: "yes",
+    // zoom: "no",
+    // initial_zoom_solo: "no",
     
     //Advanced settings
     div: "map",
