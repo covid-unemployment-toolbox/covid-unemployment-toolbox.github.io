@@ -1,6 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .header-text { 
@@ -12,6 +20,31 @@
     line-height: 86.4px; 
     color: white;
     text-shadow: 2px 2px 2px black;
+}
+
+.row-padding {
+  padding-top: 3%;
+  /* padding-bottom: 2%; */
+}
+
+.header-text-small { 
+  font-family: "Indie Flower";
+  font-size: 35px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 41.4px; 
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: -248px;
+}
+
+.left-text {
+  margin-left: 430px;
+}
+
+.right-text {
+  margin-right: 400px;
 }
 
 .sub-header { 
@@ -33,9 +66,10 @@
 }
 
 .container-background {
-    /* position: relative; */
+    position: relative;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
   
 .centered {
@@ -59,7 +93,7 @@
 	/* padding-left: 30px; */
 	width: 24px;
 	height: 100px;
-	padding-top: 170%;
+	padding-top: 150%;
 }
 
 .m_scroll_arrows {
@@ -216,6 +250,21 @@
   width: 49px;
   height: 49px;
   position: absolute;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 50px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.ct-btn-scroll-2 {
+  width: 49px;
+  height: 49px;
+  /* position: absolute; */
   bottom: 25%;
   left: 0;
   right: 0;

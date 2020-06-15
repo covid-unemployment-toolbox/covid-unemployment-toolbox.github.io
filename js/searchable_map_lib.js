@@ -298,7 +298,7 @@ var SearchableMapLib = {
               address = abbreviationToState[key];
             }
             if (key in stateToAbbreviation) {
-              addresss = key;
+              address = key;
             }
           }
           console.log("Address is " + address);
@@ -357,18 +357,15 @@ var SearchableMapLib = {
     $('#list-result-count').html(SearchableMapLib.currentResults.features.length.toLocaleString('en') + ' ' + recname + ' found')
   },
 
-  // modalPop: function(data) {
-  //   if (SearchableMapLib.debug) {
-  //     console.log('launch modal')
-  //     console.log(data);
-  //   }
-  //   var modal_content;
-  //   $.get( "../templates/popup.ejs", function( template ) {
-  //       modal_content = ejs.render(template, {obj: data});
-  //       $('#modal-pop').modal();
-  //       $('#modal-main').html(modal_content);
-  //   });
-  // },
+  updateSidePanel: function(data) {
+    console.log("Made it here");
+    console.log(data);
+    var panel_content;
+    $.get( "../templates/popup.ejs", function( template ) {
+        panel_content = ejs.render(template, {obj: data});
+        $('#side-panel').html(panel_content);
+    });
+  },
 
   clearSearch: function(){
     if (SearchableMapLib.currentResultsLayer) {
@@ -400,11 +397,11 @@ var SearchableMapLib = {
 
     //-----custom filters-----
 
-    //-----name search filter-----
-    var name_search = $("#search-name").val().replace("'", "\\'");
+    //-----job name search filter-----
+    var name_search = $("#search-title").val().replace("'", "\\'");
     if (name_search != '') {
       SearchableMapLib.currentResults.features = $.grep(SearchableMapLib.currentResults.features, function(r) {
-          return r.properties["Company"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
+          return r.properties["title"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
         });
     }
     //-----end name search filter-----
@@ -424,7 +421,7 @@ var SearchableMapLib = {
       layer.on({
         mouseover: hoverFeature,
         mouseout: removeHover,
-        click: modalPop
+        click: updateSidePanel
       });
     }
 
@@ -436,15 +433,15 @@ var SearchableMapLib = {
       SearchableMapLib.info.update();
     }
 
-    function modalPop(e) {
-      SearchableMapLib.modalPop(e.target.feature.properties)
+    function updateSidePanel(e) {
+      SearchableMapLib.updateSidePanel(e.target.feature.properties)
     }
 
   },
 
   setZoom: function() {
     var zoom = '';
-    if (SearchableMapLib.radius >= 40250) zoom = 8; // 25 miles
+    if (SearchableMapLib.radius >= 40250) zoom = 10; // 25 miles
     else if (SearchableMapLib.radius >= 16100) zoom = 11 //10 miles
     else if (SearchableMapLib.radius >= 8050) zoom = 12 //5 miles
     else if (SearchableMapLib.radius >= 3220) zoom = 13; // 2 miles
