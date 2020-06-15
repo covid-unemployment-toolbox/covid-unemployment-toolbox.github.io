@@ -47,3 +47,22 @@ function getParams()
 //                  }
 //              );
 //  }
+
+function displayResources() {
+    
+    // var data;
+    // $.ajax({
+    // type: "GET",  
+    // url: "data/trial.csv",
+    // dataType: "text",       
+    // success: function(response)  
+    // {
+    //     data = $.csv.toArrays(response);
+    //     generateHtmlTable(data);
+    //     console.log(data);
+    // }   
+    // });
+
+    var csv = require('./jquery.csv.js');
+
+}
