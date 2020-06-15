@@ -243,10 +243,10 @@
 
         <a id="resource-finder"></a>
         <div class='row interactive-map'>
-          <div class='col-md-8'>
+          <div class='col-md-6'>
             <div id="map"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             
             <p id="State"></p>
             <p id="Description"></p>
@@ -254,7 +254,7 @@
             
             <div class="dropdown" >
               <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-                Unemployment resources in your area: 
+                <strong>Unemployment resources in your area:</strong>
                 <p id="demo"></p>
                 <script type="text/javascript"> 
 
@@ -1720,7 +1720,7 @@
                     var i;
                     for (i = 0; i < countKey; i++) {
                       if (simplemaps_usmap_mapdata.state_specific[id].name == obj[i].State) {
-                       text += "<br />" + "Type: " + obj[i].Type +"<br />" +  "Description: " + obj[i].Description + "<br />"  ;
+                       text += "<br />" + obj[i].Type +"<br />" + obj[i].Description + "<br />"  ;
                        if (obj[i].URL != "") {
                          text += "URL: ";
                         var link_text = obj[i].URL;
