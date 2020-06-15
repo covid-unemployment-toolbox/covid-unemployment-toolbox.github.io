@@ -406,6 +406,15 @@ var SearchableMapLib = {
     }
     //-----end name search filter-----
 
+    //-----job type search filter-----
+    var name_search = $("#search-title").val().replace("'", "\\'");
+    if (name_search != '') {
+      SearchableMapLib.currentResults.features = $.grep(SearchableMapLib.currentResults.features, function(r) {
+          return r.properties["type"].toLowerCase().indexOf(name_search.toLowerCase()) > -1;
+        });
+    }
+    //-----end type search filter-----
+
     // -----end of custom filters-----
 
     SearchableMapLib.currentResultsLayer = L.geoJSON(SearchableMapLib.currentResults, {
