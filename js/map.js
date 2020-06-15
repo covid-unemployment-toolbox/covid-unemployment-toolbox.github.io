@@ -8,7 +8,7 @@ $(window).resize(function () {
 $(function() {
 
   SearchableMapLib.initialize({
-    filePath: 'data/job_search_info_final.csv',
+    filePath: 'data/MOCK_DATA.csv',
     fileType: 'csv',
     recordName: 'job location',
     recordNamePlural: 'jobs',
