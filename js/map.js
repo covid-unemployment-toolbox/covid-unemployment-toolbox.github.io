@@ -55,7 +55,7 @@ $(function() {
     }
   });
 
-  $("#search-address, #search-name").keydown(function(e){
+  $("#search-address, #search-title").keydown(function(e){
       var key =  e.keyCode ? e.keyCode : e.which;
       if(key == 13) {
           $('#btnSearch').click();
