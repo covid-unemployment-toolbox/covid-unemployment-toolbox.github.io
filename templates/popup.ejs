@@ -1,25 +1,55 @@
 <h4>
-    <%= obj["Facility Name"] %>
-</h4>             
+    <strong>Company:</strong>
+</h4>    
 <p>
-    <%= formatAddress(obj) %><br />
-    <%= obj["Phone"] %><br />
+    <%= obj["company"] %>
+</p>   
 
-    <% if (obj["URL"]) { %>
-        <a href='<%= obj["URL"] %>' target='_blank'>Website</a>
-    <% } %>
-</p>
+<h4>
+    <strong>Position:</strong>
+</h4>    
+<p>
+    <%= obj["title"] %>
+</p> 
 
-<% if (obj["Cost"]) { %>
-    <p>
-        <strong>Cost</strong><br />
-        <%= obj["Cost"] %>
-    </p>
-<% } %>
+<h4>
+    <strong>Industry:</strong>
+</h4>    
+<p>
+    <%= obj["industry"] %>
+</p> 
 
-<% if (obj["Hours"]) { %>
-    <p>
-        <strong>Hours</strong><br />
-        <%= obj["Hours"] %>
-    </p>
-<% } %>
+<h4>
+    <strong>Salary:</strong>
+</h4>    
+<p>
+    <%= obj["salary"] %>
+</p> 
+
+<h4>
+    <strong>Address:</strong>
+</h4>    
+<p>
+    <%= obj["street"] %>
+</p> 
+
+<h4>
+    <strong>Description:</strong>
+</h4>    
+<p>
+    <%= obj["description"] %>
+</p> 
+
+
+<!-- <h3>Company:</h3>
+<p id="company-holder"></p>
+<h3>Position:</h3>
+<p id="title-holder"></p>
+<h3>Industry:</h3>
+<p id="industry-holder"></p>
+<h3>Salary:</h3>
+<p id="salary-holder"></p>
+<h3>Address:</h3>
+<p id="street-holder"></p>
+<h3>Description:</h3>
+<p id="description-holder"></p> -->
