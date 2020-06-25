@@ -1,27 +1,12 @@
 {
-  "name": "searchable-map-template-csv-master",
+  "name": "covid-unemployment-toolbox-webapp",
   "version": "1.0.0",
-  "description": "You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest. This template is a successor to Derek Eder's [Fusion Tables Map Template](https://github.com/derekeder/FusionTable-Map-Template).",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io/issues"
-  },
-  "homepage": "https://github.com/post-covid-job-tracker/post-covid-job-tracker.github.io#readme",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "jquery-csv": "^1.0.11"
+    "express": "^4.17.1"
   },
-  "devDependencies": {}
+  "author": "Zeba",
+  "license": "ISC"
 }
