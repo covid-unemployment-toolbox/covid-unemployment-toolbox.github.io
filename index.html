@@ -13,22 +13,22 @@
     <meta content='You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest.' name='description'>
     <meta content='Searchable Map Template - CSV' name='author'>
 
-    <!-- Facebook metadata -->
+    <!-- Facebook metadata
     <meta content="Searchable Map Template - CSV" property="og:site_name">
     <meta content="Searchable Map Template - CSV" property="og:title">
     <meta content="website" property="og:type">
     <meta content="You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest." property="og:description">
     <meta content="https://searchable-map-template-csv.netlify.com/" property="og:url">
-    <meta content="https://searchable-map-template-csv.netlify.com/img/screenshot.jpg" property="og:image">
+    <meta content="https://searchable-map-template-csv.netlify.com/img/screenshot.jpg" property="og:image"> -->
     
-    <!-- Twitter metadata -->
+    <!-- Twitter metadata
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@DataMadeCo">
     <meta name="twitter:creator" content="@DataMadeCo">
     <meta name="twitter:title" content="Searchable Map Template - CSV">
     <meta name="twitter:url" content="https://searchable-map-template-csv.netlify.com/">
     <meta name="twitter:description" content="You want to put your data on a searchable, filterable map. Provide a comma separated file (CSV) and this free, open source template will do the rest.">
-    <meta name="twitter:image:src" content="https://searchable-map-template-csv.netlify.com/img/screenshot.jpg">
+    <meta name="twitter:image:src" content="https://searchable-map-template-csv.netlify.com/img/screenshot.jpg"> -->
 
     <!-- Styles -->
     <!-- Bootstrap cssS -->
@@ -208,13 +208,23 @@
             </div>
 
             <a class="ct-btn-scroll-2 ct-js-btn-scroll" href="#map-results">
-              <button class='btn btn-primary' id="btnSearch"><i class='fa fa-search'></i> Search</button>
+              <button class='btn btn-primary' id="btnSearch" onclick="getInputValue();"> <i class='fa fa-search'></i> Search</button>
             <a href="/" class='btn btn-secondary' id="btnReset" title="Reset"><i class="fa fa-repeat" aria-hidden="true"></i> Reset</a>
             <button class='btn btn-dark' id='btnViewMode' title='Change view'><i class='fa fa-list'></i> List view</button>
             </div>
             <a id="map-results"></a>
           </div>
         </div>
+
+        <!-- <script>
+          function getInputValue(){
+              // Selecting the input element and get its value 
+              var inputVal = document.getElementById("search-address").value;
+              
+              // Displaying the value
+              alert(inputVal);
+          }
+      </script> -->
       <div class='row row-padding'>
           <div class="col-md-4 left-panel-pad">
             <div id="side-panel"></div>
